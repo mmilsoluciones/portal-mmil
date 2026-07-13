@@ -3,40 +3,33 @@
         "nombre": "SGRSI",
         "entrega": "Segunda entrega",
         "fechaEntrega": "2026-08-24",
-        "avanceGeneral": 10
+        "avanceGeneral": 10,
+        "ultimaActualizacion": "13/07/2026",
+        "urlJira": "https://www.atlassian.com/software/jira"
     },
-
-    "enlaces": {
-        "jira": "https://tuempresa.atlassian.net/jira/",
-        "github": "https://github.com/mmilsoluciones",
-        "drive": "https://drive.google.com/",
-        "figma": "https://www.figma.com/"
-    },
-
     "prioridades": [
         {
-            "titulo": "Definir calendario de trabajo",
+            "titulo": "Definir responsables de la segunda entrega",
             "materia": "Gestión general",
             "responsable": "Equipo",
             "prioridad": "Alta",
             "estado": "En curso"
         },
         {
-            "titulo": "Comenzar modelo esencial",
+            "titulo": "Comenzar el modelo esencial",
             "materia": "Ingeniería de Software",
             "responsable": "Por asignar",
             "prioridad": "Alta",
             "estado": "Pendiente"
         },
         {
-            "titulo": "Revisar diseño de la base de datos",
+            "titulo": "Revisar el modelo relacional",
             "materia": "Programación Full Stack",
             "responsable": "Por asignar",
             "prioridad": "Alta",
             "estado": "Pendiente"
         }
     ],
-
     "semanas": [
         {
             "numero": 1,
@@ -46,8 +39,8 @@
             "tareas": [
                 "Leer la letra del proyecto",
                 "Asignar responsables",
-                "Crear el calendario",
-                "Actualizar Kanban"
+                "Actualizar el tablero Kanban",
+                "Definir prioridades y dependencias"
             ]
         },
         {
@@ -77,13 +70,13 @@
         {
             "numero": 4,
             "periodo": "03/08 al 09/08",
-            "objetivo": "Integración del sistema",
+            "objetivo": "Integración técnica",
             "estado": "Pendiente",
             "tareas": [
-                "Backend conectado",
+                "Backend conectado al frontend",
                 "Base de datos operativa",
                 "Login y sesiones",
-                "Roles de usuario"
+                "Control de acceso por rol"
             ]
         },
         {
@@ -92,10 +85,10 @@
             "objetivo": "Validación y documentación",
             "estado": "Pendiente",
             "tareas": [
-                "Validar prototipo",
+                "Validar el prototipo",
                 "Registrar feedback",
                 "Actualizar diagramas",
-                "Preparar video"
+                "Preparar el video demostrativo"
             ]
         },
         {
@@ -107,7 +100,7 @@
                 "Completar documentación",
                 "Realizar pruebas generales",
                 "Corregir inconsistencias",
-                "Cerrar repositorio"
+                "Actualizar repositorio"
             ]
         },
         {
@@ -116,21 +109,19 @@
             "objetivo": "Revisión final",
             "estado": "Pendiente",
             "tareas": [
-                "Revisar índices",
-                "Verificar archivos",
-                "Revisar PDF",
-                "Preparar envío"
+                "Revisar índices y numeración",
+                "Verificar archivos y enlaces",
+                "Generar PDFs definitivos",
+                "Preparar el envío"
             ]
         }
     ],
-
     "materias": [
         {
             "nombre": "Ingeniería de Software",
-            "avance": 0,
             "tareas": [
                 {
-                    "nombre": "Validación metodológica",
+                    "nombre": "Validación del modelo de desarrollo",
                     "completada": false
                 },
                 {
@@ -146,7 +137,7 @@
                     "completada": false
                 },
                 {
-                    "nombre": "Casos de uso",
+                    "nombre": "Casos de uso y planillas",
                     "completada": false
                 },
                 {
@@ -156,13 +147,28 @@
                 {
                     "nombre": "Diagramas de estados",
                     "completada": false
+                },
+                {
+                    "nombre": "Gestión de riesgos",
+                    "completada": false
+                },
+                {
+                    "nombre": "Gantt actualizado",
+                    "completada": false
+                },
+                {
+                    "nombre": "Video demostrativo",
+                    "completada": false
                 }
             ]
         },
         {
             "nombre": "UTULAB",
-            "avance": 0,
             "tareas": [
+                {
+                    "nombre": "Prototipo funcional",
+                    "completada": false
+                },
                 {
                     "nombre": "Validación con usuarios",
                     "completada": false
@@ -172,60 +178,131 @@
                     "completada": false
                 },
                 {
+                    "nombre": "Ajustes en la propuesta",
+                    "completada": false
+                },
+                {
+                    "nombre": "Revisión del problema inicial",
+                    "completada": false
+                },
+                {
+                    "nombre": "Actas y evidencias",
+                    "completada": false
+                },
+                {
                     "nombre": "Segunda reflexión",
                     "completada": false
                 },
                 {
-                    "nombre": "Merchandising",
+                    "nombre": "Merchandising e identidad",
+                    "completada": false
+                },
+                {
+                    "nombre": "Estrategia de difusión",
                     "completada": false
                 }
             ]
         },
         {
             "nombre": "Programación Full Stack",
-            "avance": 0,
             "tareas": [
                 {
-                    "nombre": "Frontend para escritorio",
+                    "nombre": "Adaptación para escritorio",
                     "completada": false
                 },
                 {
-                    "nombre": "Backend conectado",
+                    "nombre": "Frontend conectado al backend",
                     "completada": false
                 },
                 {
-                    "nombre": "Base de datos SQL",
+                    "nombre": "Manejo de estados HTTP",
                     "completada": false
                 },
                 {
-                    "nombre": "Login y sesiones",
+                    "nombre": "Backend orientado a objetos",
                     "completada": false
                 },
                 {
-                    "nombre": "Control de roles",
+                    "nombre": "Arquitectura en tres capas",
+                    "completada": false
+                },
+                {
+                    "nombre": "Conexión con MySQL",
+                    "completada": false
+                },
+                {
+                    "nombre": "Registro, login y logout",
+                    "completada": false
+                },
+                {
+                    "nombre": "Protección de rutas por rol",
+                    "completada": false
+                },
+                {
+                    "nombre": "Validación y sanitización",
+                    "completada": false
+                },
+                {
+                    "nombre": "DDL y DML de prueba",
                     "completada": false
                 }
             ]
         },
         {
-            "nombre": "Sistemas Operativos",
-            "avance": 0,
+            "nombre": "Administración de Sistemas Operativos",
             "tareas": [
                 {
-                    "nombre": "Pendiente de definir según docente",
+                    "nombre": "Revisar requisitos específicos con la docente",
+                    "completada": false
+                },
+                {
+                    "nombre": "Actualizar evidencias del servidor",
+                    "completada": false
+                },
+                {
+                    "nombre": "Documentar configuraciones nuevas",
                     "completada": false
                 }
             ]
         },
         {
             "nombre": "Ciberseguridad",
-            "avance": 0,
             "tareas": [
                 {
-                    "nombre": "Pendiente de definir según docente",
+                    "nombre": "Revisar requisitos específicos con la docente",
+                    "completada": false
+                },
+                {
+                    "nombre": "Documentar medidas implementadas",
+                    "completada": false
+                },
+                {
+                    "nombre": "Actualizar riesgos y controles",
                     "completada": false
                 }
             ]
+        }
+    ],
+    "enlaces": [
+        {
+            "nombre": "Jira",
+            "descripcion": "Tablero de tareas del equipo",
+            "url": "https://www.atlassian.com/software/jira"
+        },
+        {
+            "nombre": "GitHub",
+            "descripcion": "Repositorios de MMIL Soluciones",
+            "url": "https://github.com/"
+        },
+        {
+            "nombre": "Google Drive",
+            "descripcion": "Documentación compartida",
+            "url": "https://drive.google.com/"
+        },
+        {
+            "nombre": "Figma",
+            "descripcion": "Wireframes y prototipos",
+            "url": "https://www.figma.com/"
         }
     ]
 }
