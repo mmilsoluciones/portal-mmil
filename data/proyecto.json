@@ -1,0 +1,231 @@
+{
+    "proyecto": {
+        "nombre": "SGRSI",
+        "entrega": "Segunda entrega",
+        "fechaEntrega": "2026-08-24",
+        "avanceGeneral": 10
+    },
+
+    "enlaces": {
+        "jira": "https://tuempresa.atlassian.net/jira/",
+        "github": "https://github.com/mmilsoluciones",
+        "drive": "https://drive.google.com/",
+        "figma": "https://www.figma.com/"
+    },
+
+    "prioridades": [
+        {
+            "titulo": "Definir calendario de trabajo",
+            "materia": "Gestión general",
+            "responsable": "Equipo",
+            "prioridad": "Alta",
+            "estado": "En curso"
+        },
+        {
+            "titulo": "Comenzar modelo esencial",
+            "materia": "Ingeniería de Software",
+            "responsable": "Por asignar",
+            "prioridad": "Alta",
+            "estado": "Pendiente"
+        },
+        {
+            "titulo": "Revisar diseño de la base de datos",
+            "materia": "Programación Full Stack",
+            "responsable": "Por asignar",
+            "prioridad": "Alta",
+            "estado": "Pendiente"
+        }
+    ],
+
+    "semanas": [
+        {
+            "numero": 1,
+            "periodo": "18/07 al 19/07",
+            "objetivo": "Organizar la segunda entrega",
+            "estado": "En curso",
+            "tareas": [
+                "Leer la letra del proyecto",
+                "Asignar responsables",
+                "Crear el calendario",
+                "Actualizar Kanban"
+            ]
+        },
+        {
+            "numero": 2,
+            "periodo": "20/07 al 26/07",
+            "objetivo": "Modelo esencial y estructura técnica",
+            "estado": "Pendiente",
+            "tareas": [
+                "Modelo ambiental",
+                "Lista de acontecimientos",
+                "Modelo de comportamiento",
+                "Revisión de base de datos"
+            ]
+        },
+        {
+            "numero": 3,
+            "periodo": "27/07 al 02/08",
+            "objetivo": "Diseño UML",
+            "estado": "Pendiente",
+            "tareas": [
+                "Casos de uso",
+                "Planillas de casos de uso",
+                "Diagrama de clases",
+                "Diagramas de estados"
+            ]
+        },
+        {
+            "numero": 4,
+            "periodo": "03/08 al 09/08",
+            "objetivo": "Integración del sistema",
+            "estado": "Pendiente",
+            "tareas": [
+                "Backend conectado",
+                "Base de datos operativa",
+                "Login y sesiones",
+                "Roles de usuario"
+            ]
+        },
+        {
+            "numero": 5,
+            "periodo": "10/08 al 16/08",
+            "objetivo": "Validación y documentación",
+            "estado": "Pendiente",
+            "tareas": [
+                "Validar prototipo",
+                "Registrar feedback",
+                "Actualizar diagramas",
+                "Preparar video"
+            ]
+        },
+        {
+            "numero": 6,
+            "periodo": "17/08 al 21/08",
+            "objetivo": "Preentrega",
+            "estado": "Pendiente",
+            "tareas": [
+                "Completar documentación",
+                "Realizar pruebas generales",
+                "Corregir inconsistencias",
+                "Cerrar repositorio"
+            ]
+        },
+        {
+            "numero": 7,
+            "periodo": "22/08 al 23/08",
+            "objetivo": "Revisión final",
+            "estado": "Pendiente",
+            "tareas": [
+                "Revisar índices",
+                "Verificar archivos",
+                "Revisar PDF",
+                "Preparar envío"
+            ]
+        }
+    ],
+
+    "materias": [
+        {
+            "nombre": "Ingeniería de Software",
+            "avance": 0,
+            "tareas": [
+                {
+                    "nombre": "Validación metodológica",
+                    "completada": false
+                },
+                {
+                    "nombre": "Modelo ambiental",
+                    "completada": false
+                },
+                {
+                    "nombre": "Modelo de comportamiento",
+                    "completada": false
+                },
+                {
+                    "nombre": "Lista de acontecimientos",
+                    "completada": false
+                },
+                {
+                    "nombre": "Casos de uso",
+                    "completada": false
+                },
+                {
+                    "nombre": "Diagrama de clases",
+                    "completada": false
+                },
+                {
+                    "nombre": "Diagramas de estados",
+                    "completada": false
+                }
+            ]
+        },
+        {
+            "nombre": "UTULAB",
+            "avance": 0,
+            "tareas": [
+                {
+                    "nombre": "Validación con usuarios",
+                    "completada": false
+                },
+                {
+                    "nombre": "Análisis del feedback",
+                    "completada": false
+                },
+                {
+                    "nombre": "Segunda reflexión",
+                    "completada": false
+                },
+                {
+                    "nombre": "Merchandising",
+                    "completada": false
+                }
+            ]
+        },
+        {
+            "nombre": "Programación Full Stack",
+            "avance": 0,
+            "tareas": [
+                {
+                    "nombre": "Frontend para escritorio",
+                    "completada": false
+                },
+                {
+                    "nombre": "Backend conectado",
+                    "completada": false
+                },
+                {
+                    "nombre": "Base de datos SQL",
+                    "completada": false
+                },
+                {
+                    "nombre": "Login y sesiones",
+                    "completada": false
+                },
+                {
+                    "nombre": "Control de roles",
+                    "completada": false
+                }
+            ]
+        },
+        {
+            "nombre": "Sistemas Operativos",
+            "avance": 0,
+            "tareas": [
+                {
+                    "nombre": "Pendiente de definir según docente",
+                    "completada": false
+                }
+            ]
+        },
+        {
+            "nombre": "Ciberseguridad",
+            "avance": 0,
+            "tareas": [
+                {
+                    "nombre": "Pendiente de definir según docente",
+                    "completada": false
+                }
+            ]
+        }
+    ]
+}
