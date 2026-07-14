@@ -106,7 +106,9 @@
                 {
                     "nombre": "Preparación del Backend",
                     "responsable": "Macarena Rodríguez",
-                    "colaboradores":  [],
+                    "colaboradores":  [
+                        "Iliana Casañol"
+                    ],
                     "prioridad": "Media",
                     "estado": "Pendiente"
                 },
