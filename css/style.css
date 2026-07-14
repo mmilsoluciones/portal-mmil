@@ -410,3 +410,136 @@ body {
         font-size: 4rem;
     }
 }
+
+
+/* SEGUIMIENTO SEMANAL POR RESPONSABLES */
+
+.contador-semana {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+    font-size: 0.78rem;
+}
+
+.cabecera-semana {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.progreso-semana {
+    min-width: 150px;
+    text-align: right;
+}
+
+.progreso-semana strong {
+    color: var(--azul);
+}
+
+.progreso-semana .progress {
+    width: 150px;
+    margin-top: 7px;
+}
+
+.tareas-semana {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.tarea-semanal {
+    padding: 16px;
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    background: #f9fbfd;
+}
+
+.tarea-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.tarea-semanal h4 {
+    margin: 14px 0;
+    color: var(--azul);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.datos-tarea {
+    display: grid;
+    gap: 8px;
+}
+
+.datos-tarea p {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: var(--texto-suave);
+    font-size: 0.88rem;
+}
+
+.dato-etiqueta {
+    color: var(--azul-claro);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.miembro {
+    height: 100%;
+    padding: 22px;
+    background: var(--blanco);
+    border: 1px solid var(--borde);
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(16, 24, 40, 0.07);
+}
+
+.miembro h3 {
+    margin: 10px 0 8px;
+    color: var(--azul);
+    font-size: 1.12rem;
+    font-weight: 800;
+}
+
+.miembro p {
+    margin: 0;
+    color: var(--texto-suave);
+}
+
+.rol-equipo {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: var(--celeste);
+    color: var(--azul);
+    font-size: 0.72rem;
+    font-weight: 800;
+}
+
+@media (max-width: 992px) {
+    .tareas-semana {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecera-semana {
+        flex-direction: column;
+    }
+
+    .progreso-semana {
+        width: 100%;
+        text-align: left;
+    }
+
+    .progreso-semana .progress {
+        width: 100%;
+    }
+}

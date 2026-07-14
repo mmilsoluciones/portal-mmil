@@ -5,114 +5,130 @@
         "fechaEntrega": "2026-08-24",
         "avanceGeneral": 10,
         "ultimaActualizacion": "13/07/2026",
-        "urlJira": "https://www.atlassian.com/software/jira"
+        "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
     },
     "prioridades": [
         {
-            "titulo": "Definir responsables de la segunda entrega",
+            "titulo": "Planificar la segunda entrega",
             "materia": "Gestión general",
-            "responsable": "Equipo",
+            "responsable": "Marcos Albarracín",
             "prioridad": "Alta",
             "estado": "En curso"
         },
         {
-            "titulo": "Comenzar el modelo esencial",
-            "materia": "Ingeniería de Software",
-            "responsable": "Por asignar",
+            "titulo": "Organizar el tablero Jira",
+            "materia": "Gestión general",
+            "responsable": "Marcos Albarracín",
             "prioridad": "Alta",
-            "estado": "Pendiente"
+            "estado": "En curso"
         },
         {
-            "titulo": "Revisar el modelo relacional",
-            "materia": "Programación Full Stack",
-            "responsable": "Por asignar",
-            "prioridad": "Alta",
-            "estado": "Pendiente"
+            "titulo": "Desarrollar el Portal MMIL - Etapa 1",
+            "materia": "Gestión general",
+            "responsable": "Marcos Albarracín",
+            "prioridad": "Media",
+            "estado": "Finalizado"
         }
     ],
     "semanas": [
         {
             "numero": 1,
-            "periodo": "18/07 al 19/07",
-            "objetivo": "Organizar la segunda entrega",
+            "periodo": "13/07 al 19/07",
+            "objetivo": "Planificar y organizar la segunda entrega",
             "estado": "En curso",
             "tareas": [
-                "Leer la letra del proyecto",
-                "Asignar responsables",
-                "Actualizar el tablero Kanban",
-                "Definir prioridades y dependencias"
+                {
+                    "nombre": "Planificación de la segunda entrega",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "En revisión"
+                },
+                {
+                    "nombre": "Organizar el tablero Jira",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "En revisión"
+                },
+                {
+                    "nombre": "Planificar el cronograma general",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Media",
+                    "estado": "En revisión"
+                },
+                {
+                    "nombre": "Desarrollar Portal MMIL",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Media",
+                    "estado": "Finalizado"
+                }
             ]
         },
         {
             "numero": 2,
             "periodo": "20/07 al 26/07",
-            "objetivo": "Modelo esencial y estructura técnica",
+            "objetivo": "Desarrollar el modelo esencial y preparar la estructura técnica",
             "estado": "Pendiente",
             "tareas": [
-                "Modelo ambiental",
-                "Lista de acontecimientos",
-                "Modelo de comportamiento",
-                "Revisión de base de datos"
-            ]
-        },
-        {
-            "numero": 3,
-            "periodo": "27/07 al 02/08",
-            "objetivo": "Diseño UML",
-            "estado": "Pendiente",
-            "tareas": [
-                "Casos de uso",
-                "Planillas de casos de uso",
-                "Diagrama de clases",
-                "Diagramas de estados"
-            ]
-        },
-        {
-            "numero": 4,
-            "periodo": "03/08 al 09/08",
-            "objetivo": "Integración técnica",
-            "estado": "Pendiente",
-            "tareas": [
-                "Backend conectado al frontend",
-                "Base de datos operativa",
-                "Login y sesiones",
-                "Control de acceso por rol"
-            ]
-        },
-        {
-            "numero": 5,
-            "periodo": "10/08 al 16/08",
-            "objetivo": "Validación y documentación",
-            "estado": "Pendiente",
-            "tareas": [
-                "Validar el prototipo",
-                "Registrar feedback",
-                "Actualizar diagramas",
-                "Preparar el video demostrativo"
-            ]
-        },
-        {
-            "numero": 6,
-            "periodo": "17/08 al 21/08",
-            "objetivo": "Preentrega",
-            "estado": "Pendiente",
-            "tareas": [
-                "Completar documentación",
-                "Realizar pruebas generales",
-                "Corregir inconsistencias",
-                "Actualizar repositorio"
-            ]
-        },
-        {
-            "numero": 7,
-            "periodo": "22/08 al 23/08",
-            "objetivo": "Revisión final",
-            "estado": "Pendiente",
-            "tareas": [
-                "Revisar índices y numeración",
-                "Verificar archivos y enlaces",
-                "Generar PDFs definitivos",
-                "Preparar el envío"
+                {
+                    "nombre": "Modelo Ambiental",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Lista de Acontecimientos",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Modelo de Comportamiento",
+                    "responsable": "Luciano Acosta",
+                    "colaboradores": [
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Diseño del Modelo Relacional",
+                    "responsable": "Macarena Rodríguez",
+                    "colaboradores":  [],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Preparación del Backend",
+                    "responsable": "Macarena Rodríguez",
+                    "colaboradores":  [],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Actualización de la Documentación",
+                    "responsable": "Iliana Casañol",
+                    "colaboradores":  [],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Revisión General de Avances",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [
+                        "Luciano Acosta",
+                        "Iliana Casañol",
+                        "Macarena Rodríguez",
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                }
             ]
         }
     ],
@@ -287,12 +303,12 @@
         {
             "nombre": "Jira",
             "descripcion": "Tablero de tareas del equipo",
-            "url": "https://www.atlassian.com/software/jira"
+            "url": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
         },
         {
             "nombre": "GitHub",
             "descripcion": "Repositorios de MMIL Soluciones",
-            "url": "https://github.com/"
+            "url": "https://github.com/mmilsoluciones"
         },
         {
             "nombre": "Google Drive",
@@ -302,7 +318,34 @@
         {
             "nombre": "Figma",
             "descripcion": "Wireframes y prototipos",
-            "url": "https://www.figma.com/"
+            "url": "https://www.figma.com/design/vHtBPh9tiMsNVM33n5gGPR/Sistema-de-Gesti%C3%B3n-de-Recursos-y-Soporte-de-Inform%C3%A1tica?node-id=0-1&p=f"
+        }
+    ],
+    "equipo": [
+        {
+            "nombre": "Marcos Albarracín",
+            "rol": "Coordinador",
+            "area": "Coordinación general y apoyo en todas las áreas."
+        },
+        {
+            "nombre": "Luciano Acosta",
+            "rol": "Subcoordinador",
+            "area": "Diseño del sistema, modelado y revisión técnica."
+        },
+        {
+            "nombre": "Iliana Casañol",
+            "rol": "Integrante 1",
+            "area": "Documentación, evidencias y organización de entregables."
+        },
+        {
+            "nombre": "Macarena Rodríguez",
+            "rol": "Integrante 2",
+            "area": "Programación, backend, base de datos e integración."
+        },
+        {
+            "nombre": "Emilia Caballero",
+            "rol": "Integrante 3",
+            "area": "Diseño, diagramas y validación del modelado."
         }
     ]
 }

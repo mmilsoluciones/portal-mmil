@@ -15,6 +15,7 @@ async function iniciarPortal() {
         mostrarResumen(datos.proyecto, datos.semanas, datos.prioridades);
         mostrarPrioridades(datos.prioridades);
         mostrarCalendario(datos.semanas);
+        mostrarEquipo(datos.equipo || []);
         mostrarMaterias(datos.materias);
         mostrarRecursos(datos.enlaces);
         mostrarUltimaActualizacion(datos.proyecto.ultimaActualizacion);
@@ -54,8 +55,15 @@ function mostrarResumen(proyecto, semanas, prioridades) {
     document.getElementById("semanaActual").textContent =
         semanaActual ? `Semana ${semanaActual.numero}` : "Sin semana activa";
 
-    document.getElementById("objetivoSemana").textContent =
-        semanaActual ? semanaActual.objetivo : "Actualiza el estado en proyecto.json";
+    if (semanaActual) {
+        const resumen = calcularResumenSemana(semanaActual.tareas);
+
+        document.getElementById("objetivoSemana").textContent =
+            `${semanaActual.objetivo} · ${resumen.finalizadas}/${resumen.total} finalizadas`;
+    } else {
+        document.getElementById("objetivoSemana").textContent =
+            "Actualiza el estado en proyecto.json";
+    }
 
     document.getElementById("proximaPrioridad").textContent =
         prioridadActual ? prioridadActual.titulo : "Sin tareas pendientes";
@@ -72,18 +80,19 @@ function mostrarPrioridades(prioridades) {
     contenedor.innerHTML = prioridades.map((tarea) => `
         <div class="col-12 col-md-6 col-xl-4">
             <article class="tarjeta">
-                <span class="badge-prioridad ${clasePrioridad(tarea.prioridad)}">
-                    ${escaparHTML(tarea.prioridad)}
-                </span>
+                <div class="d-flex justify-content-between align-items-start gap-3">
+                    <span class="badge-prioridad ${clasePrioridad(tarea.prioridad)}">
+                        ${escaparHTML(tarea.prioridad)}
+                    </span>
+
+                    <span class="estado ${claseEstado(tarea.estado)}">
+                        ${escaparHTML(tarea.estado)}
+                    </span>
+                </div>
 
                 <h3>${escaparHTML(tarea.titulo)}</h3>
-
                 <p><strong>Materia:</strong> ${escaparHTML(tarea.materia)}</p>
                 <p><strong>Responsable:</strong> ${escaparHTML(tarea.responsable)}</p>
-
-                <span class="estado ${claseEstado(tarea.estado)}">
-                    ${escaparHTML(tarea.estado)}
-                </span>
             </article>
         </div>
     `).join("");
@@ -92,25 +101,103 @@ function mostrarPrioridades(prioridades) {
 function mostrarCalendario(semanas) {
     const contenedor = document.getElementById("calendarioSemanal");
 
-    contenedor.innerHTML = semanas.map((semana) => `
-        <article class="semana">
-            <div class="semana-fecha">
-                <strong>Semana ${semana.numero}</strong>
-                <span>${escaparHTML(semana.periodo)}</span>
-            </div>
+    contenedor.innerHTML = semanas.map((semana) => {
+        const resumen = calcularResumenSemana(semana.tareas);
 
-            <div class="semana-contenido">
-                <h3>${escaparHTML(semana.objetivo)}</h3>
+        return `
+            <article class="semana">
+                <div class="semana-fecha">
+                    <strong>Semana ${semana.numero}</strong>
+                    <span>${escaparHTML(semana.periodo)}</span>
+                    <span class="contador-semana">
+                        ${resumen.finalizadas}/${resumen.total} finalizadas
+                    </span>
+                </div>
 
-                <span class="estado ${claseEstado(semana.estado)}">
-                    ${escaparHTML(semana.estado)}
+                <div class="semana-contenido">
+                    <div class="cabecera-semana">
+                        <div>
+                            <h3>${escaparHTML(semana.objetivo)}</h3>
+
+                            <span class="estado ${claseEstado(semana.estado)}">
+                                ${escaparHTML(semana.estado)}
+                            </span>
+                        </div>
+
+                        <div class="progreso-semana">
+                            <strong>${resumen.porcentaje}%</strong>
+
+                            <div class="progress">
+                                <div
+                                    class="progress-bar"
+                                    style="width: ${resumen.porcentaje}%"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tareas-semana">
+                        ${semana.tareas.map((tarea) => crearTarjetaTarea(tarea)).join("")}
+                    </div>
+                </div>
+            </article>
+        `;
+    }).join("");
+}
+
+function crearTarjetaTarea(tarea) {
+    const colaboradores = Array.isArray(tarea.colaboradores)
+        ? tarea.colaboradores
+        : [];
+
+    const textoColaboradores = colaboradores.length > 0
+        ? colaboradores.map((nombre) => escaparHTML(nombre)).join(", ")
+        : "Sin colaboradores";
+
+    return `
+        <article class="tarea-semanal">
+            <div class="tarea-superior">
+                <span class="badge-prioridad ${clasePrioridad(tarea.prioridad)}">
+                    ${escaparHTML(tarea.prioridad)}
                 </span>
 
-                <ul>
-                    ${semana.tareas.map((tarea) => `<li>${escaparHTML(tarea)}</li>`).join("")}
-                </ul>
+                <span class="estado ${claseEstado(tarea.estado)}">
+                    ${escaparHTML(tarea.estado)}
+                </span>
+            </div>
+
+            <h4>${escaparHTML(tarea.nombre)}</h4>
+
+            <div class="datos-tarea">
+                <p>
+                    <span class="dato-etiqueta">Responsable</span>
+                    <strong>${escaparHTML(tarea.responsable)}</strong>
+                </p>
+
+                <p>
+                    <span class="dato-etiqueta">Colaboración</span>
+                    <span>${textoColaboradores}</span>
+                </p>
             </div>
         </article>
+    `;
+}
+
+function mostrarEquipo(equipo) {
+    const contenedor = document.getElementById("equipoGrid");
+
+    if (!contenedor) {
+        return;
+    }
+
+    contenedor.innerHTML = equipo.map((persona) => `
+        <div class="col-12 col-sm-6 col-lg-4">
+            <article class="miembro">
+                <span class="rol-equipo">${escaparHTML(persona.rol)}</span>
+                <h3>${escaparHTML(persona.nombre)}</h3>
+                <p>${escaparHTML(persona.area)}</p>
+            </article>
+        </div>
     `).join("");
 }
 
@@ -129,14 +216,22 @@ function mostrarMaterias(materias) {
                     </div>
 
                     <div class="progress mt-2">
-                        <div class="progress-bar" style="width: ${avance}%"></div>
+                        <div
+                            class="progress-bar"
+                            style="width: ${avance}%"
+                        ></div>
                     </div>
 
                     <ul class="lista-check">
                         ${materia.tareas.map((tarea) => `
                             <li class="${tarea.completada ? "completada" : ""}">
-                                <span class="check-icono">${tarea.completada ? "✓" : ""}</span>
-                                <span class="texto-tarea">${escaparHTML(tarea.nombre)}</span>
+                                <span class="check-icono">
+                                    ${tarea.completada ? "✓" : ""}
+                                </span>
+
+                                <span class="texto-tarea">
+                                    ${escaparHTML(tarea.nombre)}
+                                </span>
                             </li>
                         `).join("")}
                     </ul>
@@ -169,6 +264,23 @@ function mostrarUltimaActualizacion(fecha) {
         `Última actualización: ${fecha}`;
 }
 
+function calcularResumenSemana(tareas) {
+    const total = tareas.length;
+    const finalizadas = tareas.filter(
+        (tarea) => tarea.estado === "Finalizado"
+    ).length;
+
+    const porcentaje = total > 0
+        ? Math.round((finalizadas / total) * 100)
+        : 0;
+
+    return {
+        total,
+        finalizadas,
+        porcentaje
+    };
+}
+
 function calcularAvanceMateria(tareas) {
     if (!tareas.length) {
         return 0;
@@ -183,6 +295,7 @@ function clasePrioridad(prioridad) {
 
     if (valor === "alta") return "prioridad-alta";
     if (valor === "media") return "prioridad-media";
+
     return "prioridad-baja";
 }
 
@@ -191,6 +304,7 @@ function claseEstado(estado) {
 
     if (valor === "finalizado") return "estado-finalizado";
     if (valor === "en curso") return "estado-en-curso";
+
     return "estado-pendiente";
 }
 
@@ -205,5 +319,6 @@ function formatearFecha(fecha) {
 function escaparHTML(valor) {
     const elemento = document.createElement("div");
     elemento.textContent = String(valor);
+
     return elemento.innerHTML;
 }
