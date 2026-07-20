@@ -1,354 +1,224 @@
-{
-    "proyecto": {
-        "nombre": "SGRSI",
-        "entrega": "Segunda entrega",
-        "fechaEntrega": "2026-08-24",
-        "avanceGeneral": 10,
-        "ultimaActualizacion": "13/07/2026",
-        "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
+"proyecto": {
+    "nombre": "SGRSI",
+    "entrega": "Segunda entrega",
+    "fechaEntrega": "2026-08-24",
+    "avanceGeneral": 10,
+    "ultimaActualizacion": "20/07/2026",
+    "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
+},
+"prioridades": [
+    {
+        "titulo": "Modelo Ambiental",
+        "materia": "Ingeniería de Software",
+        "responsable": "Marcos Albarracín",
+        "prioridad": "Alta",
+        "estado": "En curso"
     },
-    "prioridades": [
+    {
+        "titulo": "Modelo de Comportamiento",
+        "materia": "Ingeniería de Software",
+        "responsable": "Luciano Acosta",
+        "prioridad": "Alta",
+        "estado": "En curso"
+    },
+    {
+        "titulo": "Diseño del Modelo Relacional",
+        "materia": "Programación Full Stack",
+        "responsable": "Macarena Rodríguez",
+        "prioridad": "Alta",
+        "estado": "En curso"
+    }
+],
+"semanas": [
+    {
+        "numero": 2,
+        "periodo": "20/07 al 26/07",
+        "objetivo": "Desarrollar el modelo esencial y preparar la estructura técnica",
+        "estado": "En curso",
+        "tareas": [
+            {
+                "nombre": "Modelo Ambiental",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [],
+                "prioridad": "Alta",
+                "estado": "En curso"
+            },
+            {
+                "nombre": "Lista de Acontecimientos",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [],
+                "prioridad": "Alta",
+                "estado": "En curso"
+            },
+            {
+                "nombre": "Modelo de Comportamiento",
+                "responsable": "Luciano Acosta",
+                "colaboradores": [
+                    "Emilia Caballero"
+                ],
+                "prioridad": "Alta",
+                "estado": "En curso"
+            },
+            {
+                "nombre": "Diseño del Modelo Relacional",
+                "responsable": "Macarena Rodríguez",
+                "colaboradores": [],
+                "prioridad": "Alta",
+                "estado": "En curso"
+            },
+            {
+                "nombre": "Preparación del Backend",
+                "responsable": "Macarena Rodríguez",
+                "colaboradores": [
+                    "Iliana Casañol",
+                    "Marcos Albarracín"
+                ],
+                "prioridad": "Media",
+                "estado": "En curso"
+            },
+            {
+                "nombre": "Actualización de la Documentación",
+                "responsable": "Iliana Casañol",
+                "colaboradores": [],
+                "prioridad": "Media",
+                "estado": "En curso"
+            },
+            {
+                "nombre": "Revisión General de Avances",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [
+                    "Luciano Acosta",
+                    "Iliana Casañol",
+                    "Macarena Rodríguez",
+                    "Emilia Caballero"
+                ],
+                "prioridad": "Media",
+                "estado": "Pendiente"
+            }
+        ]
+    },
+    {
+    "numero": 3,
+    "periodo": "27/07 al 02/08",
+    "objetivo": "Completar el diseño UML e iniciar la implementación técnica",
+    "estado": "Pendiente",
+    "tareas": [
         {
-            "titulo": "Planificar la segunda entrega",
-            "materia": "Gestión general",
-            "responsable": "Marcos Albarracín",
+            "nombre": "Casos de Uso",
+            "responsable": "Luciano Acosta",
+            "colaboradores": [
+                "Emilia Caballero"
+            ],
             "prioridad": "Alta",
-            "estado": "En curso"
+            "estado": "Pendiente"
         },
         {
-            "titulo": "Organizar el tablero Jira",
-            "materia": "Gestión general",
-            "responsable": "Marcos Albarracín",
+            "nombre": "Especificación de Casos de Uso",
+            "responsable": "Emilia Caballero",
+            "colaboradores": [],
             "prioridad": "Alta",
-            "estado": "En curso"
+            "estado": "Pendiente"
         },
         {
-            "titulo": "Desarrollar el Portal MMIL - Etapa 1",
-            "materia": "Gestión general",
-            "responsable": "Marcos Albarracín",
+            "nombre": "Diagrama de Clases",
+            "responsable": "Luciano Acosta",
+            "colaboradores": [
+                "Emilia Caballero"
+            ],
+            "prioridad": "Alta",
+            "estado": "Pendiente"
+        },
+        {
+            "nombre": "Diagramas de Estado",
+            "responsable": "Emilia Caballero",
+            "colaboradores": [],
             "prioridad": "Media",
-            "estado": "Finalizado"
-        }
-    ],
-    "semanas": [
+            "estado": "Pendiente"
+        },
         {
-            "numero": 2,
-            "periodo": "20/07 al 26/07",
-            "objetivo": "Desarrollar el modelo esencial y preparar la estructura técnica",
+            "nombre": "Implementación de la Base de Datos",
+            "responsable": "Macarena Rodríguez",
+            "colaboradores": [
+                "Marcos Albarracín"
+            ],
+            "prioridad": "Alta",
+            "estado": "Pendiente"
+        },
+        {
+            "nombre": "Configuración de la Conexión PHP - MySQL",
+            "responsable": "Macarena Rodríguez",
+            "colaboradores": [
+                "Marcos Albarracín",
+                "Iliana Casañol"
+            ],
+            "prioridad": "Media",
+            "estado": "Pendiente"
+        },
+        {
+            "nombre": "Actualización de la Documentación",
+            "responsable": "Iliana Casañol",
+            "colaboradores": [],
+            "prioridad": "Media",
+            "estado": "Pendiente"
+        },
+        {
+            "nombre": "PERT y Camino Crítico (CMP)",
+            "responsable": "Luciano Acosta",
+            "colaboradores": [
+                "Macarena Rodríguez"
+            ],
+            "prioridad": "Alta",
             "estado": "Pendiente",
-            "tareas": [
-                {
-                    "nombre": "Modelo Ambiental",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "En proceso"
-                },
-                {
-                    "nombre": "Lista de Acontecimientos",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "En proceso"
-                },
-                {
-                    "nombre": "Modelo de Comportamiento",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "En proceso"
-                },
-                {
-                    "nombre": "Diseño del Modelo Relacional",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores":  [],
-                    "prioridad": "Alta",
-                    "estado": "En proceso"
-                },
-                {
-                    "nombre": "Preparación del Backend",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores":  [
-                        "Iliana Casañol",
-                        "Marcos Albarracin"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "En proceso"
-                },
-                {
-                    "nombre": "Actualización de la Documentación",
-                    "responsable": "Iliana Casañol",
-                    "colaboradores":  [],
-                    "prioridad": "Media",
-                    "estado": "En proceso"
-                },
-                {
-                    "nombre": "Revisión General de Avances",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Luciano Acosta",
-                        "Iliana Casañol",
-                        "Macarena Rodríguez",
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "En proceso"
-                }
-            ]
+            "fechaLimite": "31/07/2026"
         },
         {
-            "numero": 1,
-            "periodo": "13/07 al 19/07",
-            "objetivo": "Planificar y organizar la segunda entrega",
-            "estado": "Finalizado",
-            "tareas": [
-                {
-                    "nombre": "Planificación de la segunda entrega",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Organizar el tablero Jira",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Planificar el cronograma general",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Desarrollar Portal MMIL",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Finalizado"
-                }
-            ]
-        }
-    ],
-    "materias": [
-        {
-            "nombre": "Ingeniería de Software",
-            "tareas": [
-                {
-                    "nombre": "Validación del modelo de desarrollo",
-                    "completada": false
-                },
-                {
-                    "nombre": "Modelo ambiental",
-                    "completada": false
-                },
-                {
-                    "nombre": "Modelo de comportamiento",
-                    "completada": false
-                },
-                {
-                    "nombre": "Lista de acontecimientos",
-                    "completada": false
-                },
-                {
-                    "nombre": "Casos de uso y planillas",
-                    "completada": false
-                },
-                {
-                    "nombre": "Diagrama de clases",
-                    "completada": false
-                },
-                {
-                    "nombre": "Diagramas de estados",
-                    "completada": false
-                },
-                {
-                    "nombre": "Gestión de riesgos",
-                    "completada": false
-                },
-                {
-                    "nombre": "Gantt actualizado",
-                    "completada": false
-                },
-                {
-                    "nombre": "Video demostrativo",
-                    "completada": false
-                }
-            ]
-        },
-        {
-            "nombre": "UTULAB",
-            "tareas": [
-                {
-                    "nombre": "Prototipo funcional",
-                    "completada": false
-                },
-                {
-                    "nombre": "Validación con usuarios",
-                    "completada": false
-                },
-                {
-                    "nombre": "Análisis del feedback",
-                    "completada": false
-                },
-                {
-                    "nombre": "Ajustes en la propuesta",
-                    "completada": false
-                },
-                {
-                    "nombre": "Revisión del problema inicial",
-                    "completada": false
-                },
-                {
-                    "nombre": "Actas y evidencias",
-                    "completada": false
-                },
-                {
-                    "nombre": "Segunda reflexión",
-                    "completada": false
-                },
-                {
-                    "nombre": "Merchandising e identidad",
-                    "completada": false
-                },
-                {
-                    "nombre": "Estrategia de difusión",
-                    "completada": false
-                }
-            ]
-        },
-        {
-            "nombre": "Programación Full Stack",
-            "tareas": [
-                {
-                    "nombre": "Adaptación para escritorio",
-                    "completada": false
-                },
-                {
-                    "nombre": "Frontend conectado al backend",
-                    "completada": false
-                },
-                {
-                    "nombre": "Manejo de estados HTTP",
-                    "completada": false
-                },
-                {
-                    "nombre": "Backend orientado a objetos",
-                    "completada": false
-                },
-                {
-                    "nombre": "Arquitectura en tres capas",
-                    "completada": false
-                },
-                {
-                    "nombre": "Conexión con MySQL",
-                    "completada": false
-                },
-                {
-                    "nombre": "Registro, login y logout",
-                    "completada": false
-                },
-                {
-                    "nombre": "Protección de rutas por rol",
-                    "completada": false
-                },
-                {
-                    "nombre": "Validación y sanitización",
-                    "completada": false
-                },
-                {
-                    "nombre": "DDL y DML de prueba",
-                    "completada": false
-                }
-            ]
-        },
-        {
-            "nombre": "Administración de Sistemas Operativos",
-            "tareas": [
-                {
-                    "nombre": "Revisar requisitos específicos con la docente",
-                    "completada": false
-                },
-                {
-                    "nombre": "Actualizar evidencias del servidor",
-                    "completada": false
-                },
-                {
-                    "nombre": "Documentar configuraciones nuevas",
-                    "completada": false
-                }
-            ]
-        },
-        {
-            "nombre": "Ciberseguridad",
-            "tareas": [
-                {
-                    "nombre": "Revisar requisitos específicos con la docente",
-                    "completada": false
-                },
-                {
-                    "nombre": "Documentar medidas implementadas",
-                    "completada": false
-                },
-                {
-                    "nombre": "Actualizar riesgos y controles",
-                    "completada": false
-                }
-            ]
-        }
-    ],
-    "enlaces": [
-        {
-            "nombre": "Jira",
-            "descripcion": "Tablero de tareas del equipo",
-            "url": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
-        },
-        {
-            "nombre": "GitHub",
-            "descripcion": "Repositorios de MMIL Soluciones",
-            "url": "https://github.com/mmilsoluciones"
-        },
-        {
-            "nombre": "Google Drive",
-            "descripcion": "Documentación compartida",
-            "url": "https://drive.google.com/"
-        },
-        {
-            "nombre": "Figma",
-            "descripcion": "Wireframes y prototipos",
-            "url": "https://www.figma.com/design/vHtBPh9tiMsNVM33n5gGPR/Sistema-de-Gesti%C3%B3n-de-Recursos-y-Soporte-de-Inform%C3%A1tica?node-id=0-1&p=f"
-        }
-    ],
-    "equipo": [
-        {
-            "nombre": "Marcos Albarracín",
-            "rol": "Coordinador",
-            "area": "Coordinación general y apoyo en todas las áreas."
-        },
-        {
-            "nombre": "Luciano Acosta",
-            "rol": "Subcoordinador",
-            "area": "Diseño del sistema, modelado y revisión técnica."
-        },
-        {
-            "nombre": "Iliana Casañol",
-            "rol": "Integrante 1",
-            "area": "Documentación, evidencias y organización de entregables."
-        },
-        {
-            "nombre": "Macarena Rodríguez",
-            "rol": "Integrante 2",
-            "area": "Programación, backend, base de datos e integración."
-        },
-        {
-            "nombre": "Emilia Caballero",
-            "rol": "Integrante 3",
-            "area": "Diseño, diagramas y validación del modelado."
+            "nombre": "Revisión General de Avances",
+            "responsable": "Marcos Albarracín",
+            "colaboradores": [
+                "Luciano Acosta",
+                "Iliana Casañol",
+                "Macarena Rodríguez",
+                "Emilia Caballero"
+            ],
+            "prioridad": "Media",
+            "estado": "Pendiente"
         }
     ]
-}
+},
+    {
+        "numero": 1,
+        "periodo": "13/07 al 19/07",
+        "objetivo": "Planificar y organizar la segunda entrega",
+        "estado": "Finalizado",
+        "tareas": [
+            {
+                "nombre": "Planificación de la segunda entrega",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [],
+                "prioridad": "Alta",
+                "estado": "Finalizado"
+            },
+            {
+                "nombre": "Organizar el tablero Jira",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [],
+                "prioridad": "Alta",
+                "estado": "Finalizado"
+            },
+            {
+                "nombre": "Planificar el cronograma general",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [],
+                "prioridad": "Media",
+                "estado": "Finalizado"
+            },
+            {
+                "nombre": "Desarrollar Portal MMIL",
+                "responsable": "Marcos Albarracín",
+                "colaboradores": [],
+                "prioridad": "Media",
+                "estado": "Finalizado"
+            }
+        ]
+    }
+]
