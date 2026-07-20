@@ -162,7 +162,7 @@
             "estado": "Pendiente"
         },
         {
-            "nombre": "PERT y Camino Crítico (CMP)",
+            "nombre": "PERT y Camino Crítico (CPM)",
             "responsable": "Luciano Acosta",
             "colaboradores": [
                 "Macarena Rodríguez"
