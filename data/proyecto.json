@@ -236,12 +236,12 @@
                     "completada": true
                 },
                 {
-                    "nombre": "Modelo de comportamiento",
-                    "completada": false
-                },
-                {
                     "nombre": "Lista de acontecimientos",
                     "completada": true
+                },
+                {
+                    "nombre": "Modelo de comportamiento",
+                    "completada": false
                 },
                 {
                     "nombre": "Casos de uso y planillas",
