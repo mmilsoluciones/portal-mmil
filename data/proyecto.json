@@ -9,13 +9,6 @@
     },
     "prioridades": [
         {
-            "titulo": "Modelo Ambiental",
-            "materia": "Ingeniería de Software",
-            "responsable": "Marcos Albarracín",
-            "prioridad": "Alta",
-            "estado": "En revisión"
-        },
-        {
             "titulo": "Modelo de Comportamiento",
             "materia": "Ingeniería de Software",
             "responsable": "Luciano Acosta",
@@ -28,6 +21,13 @@
             "responsable": "Macarena Rodríguez",
             "prioridad": "Alta",
             "estado": "En curso"
+        },
+        {
+            "titulo": "Modelo Ambiental",
+            "materia": "Ingeniería de Software",
+            "responsable": "Marcos Albarracín",
+            "prioridad": "Alta",
+            "estado": "En revisión"
         }
     ],
     "semanas": [
