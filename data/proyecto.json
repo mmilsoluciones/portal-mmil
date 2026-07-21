@@ -229,11 +229,11 @@
             "tareas": [
                 {
                     "nombre": "Validación del modelo de desarrollo",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Modelo ambiental",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Modelo de comportamiento",
@@ -241,7 +241,7 @@
                 },
                 {
                     "nombre": "Lista de acontecimientos",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Casos de uso y planillas",
