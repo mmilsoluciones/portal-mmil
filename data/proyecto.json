@@ -218,7 +218,7 @@
                     "responsable": "Marcos Albarracín",
                     "colaboradores": [],
                     "prioridad": "Alta",
-                    "estado": "En revisión"
+                    "estado": "Finalizado"
                 },
                 {
                     "nombre": "Lista de Acontecimientos",
@@ -321,7 +321,7 @@
                 },
                 {
                     "nombre": "Modelo ambiental",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Lista de acontecimientos",
@@ -329,7 +329,7 @@
                 },
                 {
                     "nombre": "Modelo de comportamiento",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Casos de uso y planillas",
