@@ -3,7 +3,7 @@
         "nombre": "SGRSI",
         "entrega": "Segunda entrega",
         "fechaEntrega": "2026-08-24",
-        "avanceGeneral": 15,
+        "avanceGeneral": 30,
         "ultimaActualizacion": "20/07/2026",
         "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
     },
@@ -329,7 +329,7 @@
                 },
                 {
                     "nombre": "Modelo de comportamiento",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Casos de uso y planillas",
@@ -362,7 +362,7 @@
             "tareas": [
                 {
                     "nombre": "Prototipo funcional",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Validación con usuarios",
@@ -394,7 +394,7 @@
                 },
                 {
                     "nombre": "Estrategia de difusión",
-                    "completada": false
+                    "completada": true
                 }
             ]
         },
@@ -403,7 +403,7 @@
             "tareas": [
                 {
                     "nombre": "Adaptación para escritorio",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Frontend conectado al backend",
