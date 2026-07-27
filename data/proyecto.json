@@ -32,77 +32,10 @@
     ],
     "semanas": [
         {
-            "numero": 2,
-            "periodo": "20/07 al 26/07",
-            "objetivo": "Desarrollar el modelo esencial y preparar la estructura técnica",
-            "estado": "En curso",
-            "tareas": [
-                {
-                    "nombre": "Modelo Ambiental",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "En revisión"
-                },
-                {
-                    "nombre": "Lista de Acontecimientos",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "En revision"
-                },
-                {
-                    "nombre": "Modelo de Comportamiento",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "En curso"
-                },
-                {
-                    "nombre": "Diseño del Modelo Relacional",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "En curso"
-                },
-                {
-                    "nombre": "Preparación del Backend",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [
-                        "Iliana Casañol",
-                        "Marcos Albarracín"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "En curso"
-                },
-                {
-                    "nombre": "Actualización de la Documentación",
-                    "responsable": "Iliana Casañol",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "En curso"
-                },
-                {
-                    "nombre": "Revisión General de Avances",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Luciano Acosta",
-                        "Iliana Casañol",
-                        "Macarena Rodríguez",
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                }
-            ]
-        },
-        {
             "numero": 3,
             "periodo": "27/07 al 02/08",
             "objetivo": "Completar el diseño UML e iniciar la implementación técnica",
-            "estado": "Pendiente",
+            "estado": "En curso",
             "tareas": [
                 {
                     "nombre": "Casos de Uso",
@@ -111,14 +44,14 @@
                         "Emilia Caballero"
                     ],
                     "prioridad": "Alta",
-                    "estado": "Pendiente"
+                    "estado": "Finalizado"
                 },
                 {
                     "nombre": "Especificación de Casos de Uso",
                     "responsable": "Emilia Caballero",
                     "colaboradores": [],
                     "prioridad": "Alta",
-                    "estado": "Pendiente"
+                    "estado": "Finalizado"
                 },
                 {
                     "nombre": "Diagrama de Clases",
@@ -140,10 +73,11 @@
                     "nombre": "Implementación de la Base de Datos",
                     "responsable": "Macarena Rodríguez",
                     "colaboradores": [
-                        "Marcos Albarracín"
+                        "Marcos Albarracín",
+                        "Iliana Casañol"
                     ],
                     "prioridad": "Alta",
-                    "estado": "Pendiente"
+                    "estado": "Finalizado"
                 },
                 {
                     "nombre": "Configuración de la Conexión PHP - MySQL",
@@ -183,6 +117,160 @@
                     ],
                     "prioridad": "Media",
                     "estado": "Pendiente"
+                }
+            ]
+        },
+        {
+            "numero": 4,
+            "periodo": "03/08 al 09/08",
+            "objetivo": "Iniciar la implementación del login, sesiones y CRUD de usuarios sobre el entorno Docker, validando el diseño UML y actualizando la documentación del proyecto.",
+            "estado": "Pendiente",
+            "tareas": [
+                {
+                    "nombre": "Implementación de Login y Sesiones",
+                    "responsable": "Macarena Rodríguez",
+                    "colaboradores": [
+                        "Marcos Albarracín",
+                        "Iliana Casañol"
+                    ],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "CRUD de Usuarios",
+                    "responsable": "Macarena Rodríguez",
+                    "colaboradores": [
+                        "Marcos Albarracín",
+                        "Iliana Casañol"
+                    ],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Configuración del entorno Docker",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [
+                        "Macarena Rodríguez",
+                        "Iliana Casañol"
+                    ],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Revisión y ajuste del diseño UML",
+                    "responsable": "Luciano Acosta",
+                    "colaboradores": [
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Validacion del diseño del sistema",
+                    "responsable": "Emilia Caballero",
+                    "colaboradores": [
+                        "Luciano Acosta"
+                    ],
+                    "prioridad": "Alta",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Actualización de la Documentación",
+                    "responsable": "Iliana Casañol",
+                    "colaboradores": [],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Documentación de Docker y configuración del entorno",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [
+                        "Luciano Acosta",
+                        "Iliana Casañol",
+                        "Macarena Rodríguez",
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                },
+                {
+                    "nombre": "Revisión General de Avances",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [
+                        "Luciano Acosta",
+                        "Iliana Casañol",
+                        "Macarena Rodríguez",
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Media",
+                    "estado": "Pendiente"
+                }
+            ]
+        },
+        {
+            "numero": 2,
+            "periodo": "20/07 al 26/07",
+            "objetivo": "Desarrollar el modelo esencial y preparar la estructura técnica",
+            "estado": "En curso",
+            "tareas": [
+                {
+                    "nombre": "Modelo Ambiental",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "Finalizado"
+                },
+                {
+                    "nombre": "Lista de Acontecimientos",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "Finalizado"
+                },
+                {
+                    "nombre": "Modelo de Comportamiento",
+                    "responsable": "Luciano Acosta",
+                    "colaboradores": [
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Alta",
+                    "estado": "Atrasado"
+                },
+                {
+                    "nombre": "Diseño del Modelo Relacional",
+                    "responsable": "Macarena Rodríguez",
+                    "colaboradores": [],
+                    "prioridad": "Alta",
+                    "estado": "Finalizado"
+                },
+                {
+                    "nombre": "Preparación del Backend",
+                    "responsable": "Macarena Rodríguez",
+                    "colaboradores": [
+                        "Iliana Casañol",
+                        "Marcos Albarracín"
+                    ],
+                    "prioridad": "Media",
+                    "estado": "Finalizado"
+                },
+                {
+                    "nombre": "Actualización de la Documentación",
+                    "responsable": "Iliana Casañol",
+                    "colaboradores": [],
+                    "prioridad": "Media",
+                    "estado": "Atrasado"
+                },
+                {
+                    "nombre": "Revisión General de Avances",
+                    "responsable": "Marcos Albarracín",
+                    "colaboradores": [
+                        "Luciano Acosta",
+                        "Iliana Casañol",
+                        "Macarena Rodríguez",
+                        "Emilia Caballero"
+                    ],
+                    "prioridad": "Media",
+                    "estado": "En curso"
                 }
             ]
         },
