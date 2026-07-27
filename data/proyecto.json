@@ -4,7 +4,7 @@
         "entrega": "Segunda entrega",
         "fechaEntrega": "2026-08-24",
         "avanceGeneral": 30,
-        "ultimaActualizacion": "20/07/2026",
+        "ultimaActualizacion": "27/07/2026",
         "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
     },
     "prioridades": [
@@ -13,14 +13,14 @@
             "materia": "Ingeniería de Software",
             "responsable": "Luciano Acosta",
             "prioridad": "Alta",
-            "estado": "En curso"
+            "estado": "Atrasado"
         },
         {
             "titulo": "Diseño del Modelo Relacional",
             "materia": "Programación Full Stack",
             "responsable": "Macarena Rodríguez",
             "prioridad": "Alta",
-            "estado": "En curso"
+            "estado": "Finalizado"
         },
         {
             "titulo": "Modelo Ambiental",
@@ -218,7 +218,7 @@
                     "responsable": "Marcos Albarracín",
                     "colaboradores": [],
                     "prioridad": "Alta",
-                    "estado": "Finalizado"
+                    "estado": "En revisión"
                 },
                 {
                     "nombre": "Lista de Acontecimientos",
@@ -321,7 +321,7 @@
                 },
                 {
                     "nombre": "Modelo ambiental",
-                    "completada": true
+                    "completada": false
                 },
                 {
                     "nombre": "Lista de acontecimientos",
@@ -329,11 +329,11 @@
                 },
                 {
                     "nombre": "Modelo de comportamiento",
-                    "completada": true
+                    "completada": false
                 },
                 {
                     "nombre": "Casos de uso y planillas",
-                    "completada": false
+                    "completada": true
                 },
                 {
                     "nombre": "Diagrama de clases",
@@ -497,7 +497,7 @@
         {
             "nombre": "Figma",
             "descripcion": "Wireframes y prototipos",
-            "url": "https://www.figma.com/design/vHtBPh9tiMsNVM33n5gGPR/Sistema-de-Gesti%C3%B3n-de-Recursos-y-Soporte-de-Inform%C3%A1tica?node-id=0-1&p=f"
+            "url": "https://www.figma.com/files/team/1641066362991067500/project/606324306?fuid=1641066361568914802"
         }
     ],
     "equipo": [
