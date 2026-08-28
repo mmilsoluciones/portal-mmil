@@ -1,530 +1,757 @@
 {
-    "proyecto": {
-        "nombre": "SGRSI",
-        "entrega": "Segunda entrega",
-        "fechaEntrega": "2026-08-24",
-        "avanceGeneral": 30,
-        "ultimaActualizacion": "27/07/2026",
-        "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
+  "proyecto": {
+    "nombre": "SGRSI",
+    "entrega": "Entrega final",
+    "fechaEntrega": "2026-10-23",
+    "avanceGeneral": 70,
+    "ultimaActualizacion": "28/08/2026",
+    "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
+  },
+  "jornadas": [
+    {
+      "fecha": "2026-09-05",
+      "titulo": "Sábado 5 de septiembre",
+      "tareas": [
+        {
+          "id": "GEN-01",
+          "ticket": "Registrar todas las correcciones docentes de las entregas anteriores",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Cada observación tiene responsable, estado y evidencia"
+        },
+        {
+          "id": "GEN-02",
+          "ticket": "Crear línea base técnica definitiva",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Versiones, servicios, IP y arquitectura documentados"
+        },
+        {
+          "id": "GEN-03",
+          "ticket": "Corregir Rocky Linux 10.2/Ubuntu por Rocky Linux 8.10",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-05",
+          "criterioCierre": "No quedan referencias operativas incorrectas"
+        },
+        {
+          "id": "GEN-04",
+          "ticket": "Crear estructura de la carpeta integrada final",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Cinco asignaturas, anexos y evidencias ordenados"
+        },
+        {
+          "id": "GEN-05",
+          "ticket": "Definir nomenclatura y registro de evidencias",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Capturas, logs, pruebas y documentos son trazables"
+        },
+        {
+          "id": "PFS-01",
+          "ticket": "Diseñar matriz definitiva de endpoints y métodos HTTP",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Cada recurso tiene GET, POST, PUT y DELETE justificados"
+        },
+        {
+          "id": "PFS-07",
+          "ticket": "Proteger los cinco endpoints GET sin sesión",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Alumnos, asignaturas, dicta, equipos y espacios exigen autorización"
+        },
+        {
+          "id": "PFS-08",
+          "ticket": "Elaborar matriz CRUD de las 17 tablas",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Operaciones existentes, faltantes y excepciones identificadas"
+        },
+        {
+          "id": "SSO-01",
+          "ticket": "Exportar e inventariar los scripts actuales de /opt/scripts",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Scripts versionados sin credenciales y con README"
+        },
+        {
+          "id": "CIB-01",
+          "ticket": "Definir casos de uso de cifrado y firma digital",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Datos a proteger, algoritmo, claves y amenazas documentados"
+        },
+        {
+          "id": "ISW-13",
+          "ticket": "Actualizar semanalmente y cerrar el Gantt final",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Plan original, avance real y desviaciones documentados"
+        },
+        {
+          "id": "GEN-06",
+          "ticket": "Crear matriz requisito → ticket → evidencia",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-05",
+          "criterioCierre": "Todos los requisitos tienen ticket y comprobación"
+        }
+      ]
     },
-    "prioridades": [
+    {
+      "fecha": "2026-09-12",
+      "titulo": "Sábado 12 de septiembre",
+      "tareas": [
         {
-            "titulo": "Modelo de Comportamiento",
-            "materia": "Ingeniería de Software",
-            "responsable": "Luciano Acosta",
-            "prioridad": "Alta",
-            "estado": "Atrasado"
+          "id": "ISW-02",
+          "ticket": "Elaborar FODA ponderado del producto SGRSI",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Analiza el producto, pondera factores y concluye"
         },
         {
-            "titulo": "Diseño del Modelo Relacional",
-            "materia": "Programación Full Stack",
-            "responsable": "Macarena Rodríguez",
-            "prioridad": "Alta",
-            "estado": "Finalizado"
+          "id": "ISW-03",
+          "ticket": "Elaborar análisis costo-beneficio",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Costos y beneficios están cuantificados y comparados"
         },
         {
-            "titulo": "Modelo Ambiental",
-            "materia": "Ingeniería de Software",
-            "responsable": "Marcos Albarracín",
-            "prioridad": "Alta",
-            "estado": "En revisión"
+          "id": "ISW-04",
+          "ticket": "Calcular métricas de tamaño, función y esfuerzo",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Emilia Caballero",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Se aplican al menos dos métricas y se estima esfuerzo"
+        },
+        {
+          "id": "PFS-02",
+          "ticket": "Implementar endpoints PUT para modificaciones",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Modificaciones dejan de depender de POST"
+        },
+        {
+          "id": "PFS-03",
+          "ticket": "Implementar DELETE y política de bajas lógicas",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Bajas físicas/lógicas documentadas sin perder trazabilidad"
+        },
+        {
+          "id": "PFS-04",
+          "ticket": "Validar métodos y códigos HTTP en todos los endpoints",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Métodos inválidos devuelven 405 y estados coherentes"
+        },
+        {
+          "id": "PFS-05",
+          "ticket": "Crear respuesta central status, message, data",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Existe un helper reutilizable y documentado"
+        },
+        {
+          "id": "SSO-02",
+          "ticket": "Crear módulo de administración de usuarios",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Alta, baja segura, bloqueo, listado y validaciones"
+        },
+        {
+          "id": "SSO-03",
+          "ticket": "Crear módulo de administración de grupos",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Alta, baja, miembros y consulta de grupos"
+        },
+        {
+          "id": "CIB-02",
+          "ticket": "Implementar cifrado de información sensible",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Cifrado/descifrado probado y claves fuera del repositorio"
+        },
+        {
+          "id": "ISW-13",
+          "ticket": "Actualizar Gantt",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Plan original, avance real y desviaciones documentados"
+        },
+        {
+          "id": "GEN-06",
+          "ticket": "Revisión del proyecto y actualización de documentación",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-12",
+          "criterioCierre": "Todos los requisitos tienen ticket y comprobación"
         }
-    ],
-    "semanas": [
+      ]
+    },
+    {
+      "fecha": "2026-09-19",
+      "titulo": "Sábado 19 de septiembre",
+      "tareas": [
         {
-            "numero": 3,
-            "periodo": "27/07 al 02/08",
-            "objetivo": "Completar el diseño UML e iniciar la implementación técnica",
-            "estado": "En curso",
-            "tareas": [
-                {
-                    "nombre": "Casos de Uso",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Especificación de Casos de Uso",
-                    "responsable": "Emilia Caballero",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Diagrama de Clases",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Diagramas de Estado",
-                    "responsable": "Emilia Caballero",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Implementación de la Base de Datos",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [
-                        "Marcos Albarracín",
-                        "Iliana Casañol"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Configuración de la Conexión PHP - MySQL",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [
-                        "Marcos Albarracín",
-                        "Iliana Casañol"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Actualización de la Documentación",
-                    "responsable": "Iliana Casañol",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "PERT y Camino Crítico (CPM)",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Macarena Rodríguez"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Pendiente",
-                    "fechaLimite": "31/07/2026"
-                },
-                {
-                    "nombre": "Revisión General de Avances",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Luciano Acosta",
-                        "Iliana Casañol",
-                        "Macarena Rodríguez",
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                }
-            ]
+          "id": "CIB-03",
+          "ticket": "Implementar firma digital y verificación",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Un documento, reporte o backup puede firmarse y verificarse"
         },
         {
-            "numero": 4,
-            "periodo": "03/08 al 09/08",
-            "objetivo": "Iniciar la implementación del login, sesiones y CRUD de usuarios sobre el entorno Docker, validando el diseño UML y actualizando la documentación del proyecto.",
-            "estado": "Pendiente",
-            "tareas": [
-                {
-                    "nombre": "Implementación de Login y Sesiones",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [
-                        "Marcos Albarracín",
-                        "Iliana Casañol"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "CRUD de Usuarios",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [
-                        "Marcos Albarracín",
-                        "Iliana Casañol"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Configuración del entorno Docker",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Macarena Rodríguez",
-                        "Iliana Casañol"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Revisión y ajuste del diseño UML",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Validacion del diseño del sistema",
-                    "responsable": "Emilia Caballero",
-                    "colaboradores": [
-                        "Luciano Acosta"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Actualización de la Documentación",
-                    "responsable": "Iliana Casañol",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Documentación de Docker y configuración del entorno",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Luciano Acosta",
-                        "Iliana Casañol",
-                        "Macarena Rodríguez",
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                },
-                {
-                    "nombre": "Revisión General de Avances",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Luciano Acosta",
-                        "Iliana Casañol",
-                        "Macarena Rodríguez",
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Pendiente"
-                }
-            ]
+          "id": "CIB-05",
+          "ticket": "Instalar certificado y configurar HTTPS en nginx",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Puerto 443 operativo y cadena del certificado validada"
         },
         {
-            "numero": 2,
-            "periodo": "20/07 al 26/07",
-            "objetivo": "Desarrollar el modelo esencial y preparar la estructura técnica",
-            "estado": "En curso",
-            "tareas": [
-                {
-                    "nombre": "Modelo Ambiental",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Lista de Acontecimientos",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Modelo de Comportamiento",
-                    "responsable": "Luciano Acosta",
-                    "colaboradores": [
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Alta",
-                    "estado": "Atrasado"
-                },
-                {
-                    "nombre": "Diseño del Modelo Relacional",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Preparación del Backend",
-                    "responsable": "Macarena Rodríguez",
-                    "colaboradores": [
-                        "Iliana Casañol",
-                        "Marcos Albarracín"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Actualización de la Documentación",
-                    "responsable": "Iliana Casañol",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Atrasado"
-                },
-                {
-                    "nombre": "Revisión General de Avances",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [
-                        "Luciano Acosta",
-                        "Iliana Casañol",
-                        "Macarena Rodríguez",
-                        "Emilia Caballero"
-                    ],
-                    "prioridad": "Media",
-                    "estado": "En curso"
-                }
-            ]
+          "id": "CIB-06",
+          "ticket": "Endurecer HTTPS y sesiones",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Redirección HTTP, cookie Secure y cabeceras apropiadas"
         },
         {
-            "numero": 1,
-            "periodo": "13/07 al 19/07",
-            "objetivo": "Planificar y organizar la segunda entrega",
-            "estado": "Finalizado",
-            "tareas": [
-                {
-                    "nombre": "Planificación de la segunda entrega",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Organizar el tablero Jira",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Alta",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Planificar el cronograma general",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Finalizado"
-                },
-                {
-                    "nombre": "Desarrollar Portal MMIL",
-                    "responsable": "Marcos Albarracín",
-                    "colaboradores": [],
-                    "prioridad": "Media",
-                    "estado": "Finalizado"
-                }
-            ]
+          "id": "ISW-05",
+          "ticket": "Comparar las métricas obtenidas",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Incluye resultados, diferencias, limitaciones y conclusión"
+        },
+        {
+          "id": "ISW-06",
+          "ticket": "Consolidar el plan integral de testing",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Alcance, ambiente, datos, responsables y criterios definidos"
+        },
+        {
+          "id": "PFS-06",
+          "ticket": "Migrar controladores y llamadas Fetch al nuevo contrato",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Ningún endpoint devuelve arreglos o contratos antiguos"
+        },
+        {
+          "id": "PFS-09",
+          "ticket": "Completar el CRUD o justificar excepciones históricas",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Cada tabla cumple CRUD o tiene excepción aprobada y documentada"
+        },
+        {
+          "id": "SSO-04",
+          "ticket": "Completar módulo de administración de redes",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Estado, IP, rutas, DNS, reconexión y diagnóstico"
+        },
+        {
+          "id": "SSO-05",
+          "ticket": "Crear módulo de administración de bases de datos",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Estado, acceso, backup, restore y comprobaciones"
+        },
+        {
+          "id": "SSO-06",
+          "ticket": "Crear módulo de administración de firewall",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Emilia Caballero",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Estado, zonas, servicios, reglas y cambios controlados"
+        },
+        {
+          "id": "SSO-07",
+          "ticket": "Crear módulo de logs del sistema",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Emilia Caballero",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Consulta de journal, SSH, Docker, firewall y auditoría"
+        },
+        {
+          "id": "GEN-06",
+          "ticket": "Revisión del proyecto y actualización de documentación",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-19",
+          "criterioCierre": "Todos los requisitos tienen ticket y comprobación"
         }
-    ],
-    "materias": [
+      ]
+    },
+    {
+      "fecha": "2026-09-26",
+      "titulo": "Sábado 26 de septiembre",
+      "tareas": [
         {
-            "nombre": "Ingeniería de Software",
-            "tareas": [
-                {
-                    "nombre": "Validación del modelo de desarrollo",
-                    "completada": true
-                },
-                {
-                    "nombre": "Modelo ambiental",
-                    "completada": true
-                },
-                {
-                    "nombre": "Lista de acontecimientos",
-                    "completada": true
-                },
-                {
-                    "nombre": "Modelo de comportamiento",
-                    "completada": true
-                },
-                {
-                    "nombre": "Casos de uso y planillas",
-                    "completada": true
-                },
-                {
-                    "nombre": "Diagrama de clases",
-                    "completada": false
-                },
-                {
-                    "nombre": "Diagramas de estados",
-                    "completada": false
-                },
-                {
-                    "nombre": "Gestión de riesgos",
-                    "completada": false
-                },
-                {
-                    "nombre": "Gantt actualizado",
-                    "completada": false
-                },
-                {
-                    "nombre": "Video demostrativo",
-                    "completada": false
-                }
-            ]
+          "id": "GEN-07",
+          "ticket": "Ejecutar auditoría integral de la primera versión candidata, RC1",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Aplicación, servidor y documentos revisados"
         },
         {
-            "nombre": "UTULAB",
-            "tareas": [
-                {
-                    "nombre": "Prototipo funcional",
-                    "completada": true
-                },
-                {
-                    "nombre": "Validación con usuarios",
-                    "completada": false
-                },
-                {
-                    "nombre": "Análisis del feedback",
-                    "completada": false
-                },
-                {
-                    "nombre": "Ajustes en la propuesta",
-                    "completada": false
-                },
-                {
-                    "nombre": "Revisión del problema inicial",
-                    "completada": false
-                },
-                {
-                    "nombre": "Actas y evidencias",
-                    "completada": false
-                },
-                {
-                    "nombre": "Segunda reflexión",
-                    "completada": false
-                },
-                {
-                    "nombre": "Merchandising e identidad",
-                    "completada": false
-                },
-                {
-                    "nombre": "Estrategia de difusión",
-                    "completada": true
-                }
-            ]
+          "id": "ISW-01",
+          "ticket": "Actualizar el diagrama final de clases",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Coincide con el código definitivo y sus relaciones"
         },
         {
-            "nombre": "Programación Full Stack",
-            "tareas": [
-                {
-                    "nombre": "Adaptación para escritorio",
-                    "completada": true
-                },
-                {
-                    "nombre": "Frontend conectado al backend",
-                    "completada": false
-                },
-                {
-                    "nombre": "Manejo de estados HTTP",
-                    "completada": false
-                },
-                {
-                    "nombre": "Backend orientado a objetos",
-                    "completada": false
-                },
-                {
-                    "nombre": "Arquitectura en tres capas",
-                    "completada": false
-                },
-                {
-                    "nombre": "Conexión con MySQL",
-                    "completada": false
-                },
-                {
-                    "nombre": "Registro, login y logout",
-                    "completada": false
-                },
-                {
-                    "nombre": "Protección de rutas por rol",
-                    "completada": false
-                },
-                {
-                    "nombre": "Validación y sanitización",
-                    "completada": false
-                },
-                {
-                    "nombre": "DDL y DML de prueba",
-                    "completada": false
-                }
-            ]
+          "id": "ISW-09",
+          "ticket": "Revisar las 23 tablas de decisión",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Coinciden con la lógica final y cubren combinaciones críticas"
         },
         {
-            "nombre": "Administración de Sistemas Operativos",
-            "tareas": [
-                {
-                    "nombre": "Revisar requisitos específicos con la docente",
-                    "completada": false
-                },
-                {
-                    "nombre": "Actualizar evidencias del servidor",
-                    "completada": false
-                },
-                {
-                    "nombre": "Documentar configuraciones nuevas",
-                    "completada": false
-                }
-            ]
+          "id": "UTU-01",
+          "ticket": "Documentar SGRSI como prototipo/producto final",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Flujos principales capturados sobre la versión RC1"
         },
         {
-            "nombre": "Ciberseguridad",
-            "tareas": [
-                {
-                    "nombre": "Revisar requisitos específicos con la docente",
-                    "completada": false
-                },
-                {
-                    "nombre": "Documentar medidas implementadas",
-                    "completada": false
-                },
-                {
-                    "nombre": "Actualizar riesgos y controles",
-                    "completada": false
-                }
-            ]
+          "id": "UTU-02",
+          "ticket": "Diseñar la nueva prueba con usuarios",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Objetivos, tareas, guion, métricas y formulario definidos"
+        },
+        {
+          "id": "UTU-03",
+          "ticket": "Seleccionar usuarios y coordinar la prueba",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Participantes, horarios y dispositivos confirmados"
+        },
+        {
+          "id": "UTU-11",
+          "ticket": "Consolidar definición e identidad final del producto",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Qué hace, destinatarios, diferenciación, logo y estilo definidos"
+        },
+        {
+          "id": "PFS-10",
+          "ticket": "Elaborar catálogo de consultas SQL",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Todas las consultas aparecen enumeradas y explicadas"
+        },
+        {
+          "id": "PFS-11",
+          "ticket": "Representar consultas mediante álgebra relacional",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Consultas principales poseen expresión y explicación"
+        },
+        {
+          "id": "PFS-12",
+          "ticket": "Elaborar listado de sentencias DML",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-09-26",
+          "criterioCierre": "INSERT, UPDATE y DELETE reales están documentados"
+        },
+        {
+          "id": "SSO-08",
+          "ticket": "Integrar los siete módulos en el menú final",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Menú uniforme, control de errores, ayuda y logs propios"
+        },
+        {
+          "id": "SSO-09",
+          "ticket": "Validar scripts, Docker Compose, volúmenes y red",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-09-26",
+          "criterioCierre": "bash -n, pruebas funcionales y evidencias sin pérdida de datos"
+        },
+        {
+          "id": "CIB-04",
+          "ticket": "Validar y documentar hashing bcrypt existente",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Alta, cambio y login probados sin texto plano"
+        },
+        {
+          "id": "CIB-07",
+          "ticket": "Consolidar políticas finales de usuarios",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Política versionada, aplicable y coherente con los roles"
+        },
+        {
+          "id": "CIB-08",
+          "ticket": "Elaborar matriz de evaluación OWASP",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Cada categoría tiene evidencia, riesgo y estado"
+        },
+        {
+          "id": "PFS-13",
+          "ticket": "Ejecutar regresión de pantallas, responsive, RBAC y SQL seguro",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Emilia Caballero",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Funciones críticas pasan en escritorio, tablet y móvil"
+        },
+        {
+          "id": "GEN-06",
+          "ticket": "Revisión del proyecto y actualización de documentación",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-09-26",
+          "criterioCierre": "Todos los requisitos tienen ticket y comprobación"
         }
-    ],
-    "enlaces": [
+      ]
+    },
+    {
+      "fecha": "2026-10-03",
+      "titulo": "Sábado 3 de octubre",
+      "tareas": [
         {
-            "nombre": "Jira",
-            "descripcion": "Tablero de tareas del equipo",
-            "url": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
+          "id": "ISW-07",
+          "ticket": "Ejecutar todas las pruebas funcionales aplicables",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Casos ejecutados con resultado, evidencia e incidencia"
         },
         {
-            "nombre": "GitHub",
-            "descripcion": "Repositorios de MMIL Soluciones",
-            "url": "https://github.com/mmilsoluciones"
+          "id": "ISW-08",
+          "ticket": "Validar casos de uso mediante casos de prueba",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Matriz de trazabilidad caso de uso → prueba → resultado"
         },
         {
-            "nombre": "Google Drive",
-            "descripcion": "Documentación compartida",
-            "url": "https://drive.google.com/"
+          "id": "ISW-15",
+          "ticket": "Evaluar la experiencia del cliente",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Entrevista/encuesta, resultados y conclusiones documentadas"
         },
         {
-            "nombre": "Figma",
-            "descripcion": "Wireframes y prototipos",
-            "url": "https://www.figma.com/files/team/1641066362991067500/project/606324306?fuid=1641066361568914802"
+          "id": "UTU-04",
+          "ticket": "Ejecutar la nueva prueba sobre el producto final",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Sesiones realizadas con observaciones y evidencias"
+        },
+        {
+          "id": "UTU-05",
+          "ticket": "Analizar funcionamiento general y experiencia de uso",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Resultados, problemas, métricas y conclusiones documentados"
+        },
+        {
+          "id": "PFS-14",
+          "ticket": "Ejecutar pruebas API e integración final, incluir lluvia de ideas",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Frontend, PHP y MariaDB funcionan con evidencia reproducible"
+        },
+        {
+          "id": "SSO-10",
+          "ticket": "Crear e instalar servidor de respaldo independiente",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Segunda VM/equipo configurado, endurecido y accesible"
+        },
+        {
+          "id": "SSO-11",
+          "ticket": "Automatizar copias hacia el servidor de respaldo",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Transferencia, retención, permisos, checksum y alertas probados"
+        },
+        {
+          "id": "CIB-09",
+          "ticket": "Corregir hallazgos OWASP y repetir pruebas",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-10-03",
+          "criterioCierre": "RBAC, errores, puertos, sesiones y cabeceras corregidos"
+        },
+        {
+          "id": "GEN-06",
+          "ticket": "Revisión del proyecto y actualización de documentación",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-03",
+          "criterioCierre": "Todos los requisitos tienen ticket y comprobación"
         }
-    ],
-    "equipo": [
+      ]
+    },
+    {
+      "fecha": "2026-10-10",
+      "titulo": "Sábado 10 de octubre",
+      "tareas": [
         {
-            "nombre": "Marcos Albarracín",
-            "rol": "Coordinador",
-            "area": "Coordinación general y apoyo en todas las áreas."
+          "id": "CIB-10",
+          "ticket": "Elaborar documento criptográfico e informe OWASP final",
+          "responsable": "Macarena Rodriguez",
+          "ayudante": "Emilia Caballero",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Implementaciones, pruebas, riesgos y remediaciones documentados"
         },
         {
-            "nombre": "Luciano Acosta",
-            "rol": "Subcoordinador",
-            "area": "Diseño del sistema, modelado y revisión técnica."
+          "id": "SSO-12",
+          "ticket": "Ejecutar backup íntegro y simulacro de recuperación",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-10-10",
+          "criterioCierre": "OVA/sistema completo restaurado con tiempos y evidencia"
         },
         {
-            "nombre": "Iliana Casañol",
-            "rol": "Integrante 1",
-            "area": "Documentación, evidencias y organización de entregables."
+          "id": "ISW-10",
+          "ticket": "Elaborar manual de usuario detallado",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Incluye procedimientos por rol y capturas actualizadas"
         },
         {
-            "nombre": "Macarena Rodríguez",
-            "rol": "Integrante 2",
-            "area": "Programación, backend, base de datos e integración."
+          "id": "ISW-11",
+          "ticket": "Elaborar manual de instalación y mantenimiento",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Iliana Casañol",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Cubre Rocky, Docker, despliegue, backup y recuperación"
         },
         {
-            "nombre": "Emilia Caballero",
-            "rol": "Integrante 3",
-            "area": "Diseño, diagramas y validación del modelado."
+          "id": "ISW-14",
+          "ticket": "Elaborar retrospectiva grupal e individual",
+          "responsable": "Emilia Caballero",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Una grupal y cinco reflexiones individuales completas"
+        },
+        {
+          "id": "UTU-06",
+          "ticket": "Comparar idea inicial con solución final",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Tabla comparativa de alcance, diseño y resultado"
+        },
+        {
+          "id": "UTU-07",
+          "ticket": "Elaborar historial de cambios y sus motivos",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Cada cambio importante posee justificación"
+        },
+        {
+          "id": "UTU-08",
+          "ticket": "Elaborar reflexión grupal final",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Incluye aprendizajes, dificultades, estrategias e impacto"
+        },
+        {
+          "id": "UTU-09",
+          "ticket": "Elaborar las cinco reflexiones individuales",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Cada integrante entrega una reflexión propia"
+        },
+        {
+          "id": "UTU-10",
+          "ticket": "Analizar aporte, mejoras e impacto comprobado",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Luciano Acosta",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Se diferencia beneficio esperado de resultado observado"
+        },
+        {
+          "id": "UTU-12",
+          "ticket": "Producir mockups y piezas visuales finales",
+          "responsable": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Recursos finales uniformes y exportados en buena calidad"
+        },
+        {
+          "id": "GEN-06",
+          "ticket": "Revisión del proyecto y actualización de documentación",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-10",
+          "criterioCierre": "Todos los requisitos tienen ticket y comprobación"
         }
-    ]
+      ]
+    },
+    {
+      "fecha": "2026-10-17",
+      "titulo": "Sábado 17 de octubre",
+      "tareas": [
+        {
+          "id": "ISW-12",
+          "ticket": "Preparar acta formal de cierre",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-17",
+          "criterioCierre": "Alcance entregado, pendientes aceptados y firmas previstas"
+        },
+        {
+          "id": "ISW-16",
+          "ticket": "Producir video final en español e inglés",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-17",
+          "criterioCierre": "Demuestra el sistema y contiene versión o subtítulos bilingües"
+        },
+        {
+          "id": "ISW-17",
+          "ticket": "Preparar repositorio Git final y versión etiquetada",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-17",
+          "criterioCierre": "Código, documentación, README y tag final publicados"
+        },
+        {
+          "id": "UTU-13",
+          "ticket": "Preparar comunicación y merchandising final",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-17",
+          "criterioCierre": "Presentación, publicaciones y piezas definitivas listas"
+        }
+      ]
+    },
+    {
+      "fecha": "2026-10-22",
+      "titulo": "Jueves 22 de octubre",
+      "tareas": [
+        {
+          "id": "UTU-14",
+          "ticket": "Preparar y ensayar la defensa",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-22",
+          "criterioCierre": "Guion, tiempos, partes, decisiones y participación equilibrada"
+        },
+        {
+          "id": "GEN-08",
+          "ticket": "Congelar versión final y preparar entrega única",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
+          "fecha": "2026-10-22",
+          "criterioCierre": "Carpeta validada, comprimida, respaldada y entregada"
+        }
+      ]
+    }
+  ],
+  "equipo": [
+    {
+      "nombre": "Marcos Albarracín",
+      "rol": "Coordinador",
+      "area": "Coordinación general y apoyo en todas las áreas."
+    },
+    {
+      "nombre": "Luciano Acosta",
+      "rol": "Subcoordinador",
+      "area": "Diseño del sistema, modelado y revisión técnica."
+    },
+    {
+      "nombre": "Iliana Casañol",
+      "rol": "Integrante 1",
+      "area": "Documentación, evidencias y organización de entregables."
+    },
+    {
+      "nombre": "Macarena Rodríguez",
+      "rol": "Integrante 2",
+      "area": "Programación, backend, base de datos e integración."
+    },
+    {
+      "nombre": "Emilia Caballero",
+      "rol": "Integrante 3",
+      "area": "Diseño, diagramas y validación del modelado."
+    }
+  ],
+  "enlaces": [
+    {
+      "nombre": "Jira",
+      "descripcion": "Tablero de tareas del equipo",
+      "url": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
+    },
+    {
+      "nombre": "GitHub",
+      "descripcion": "Repositorios de MMIL Soluciones",
+      "url": "https://github.com/mmilsoluciones"
+    },
+    {
+      "nombre": "Google Drive",
+      "descripcion": "Documentación compartida",
+      "url": "https://drive.google.com/"
+    },
+    {
+      "nombre": "Figma",
+      "descripcion": "Wireframes y prototipos",
+      "url": "https://www.figma.com/files/team/1641066362991067500/project/606324306?fuid=1641066361568914802"
+    }
+  ]
 }

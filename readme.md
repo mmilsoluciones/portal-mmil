@@ -1,29 +1,17 @@
-# Portal MMIL Soluciones — Etapa 1
+# Portal MMIL Soluciones — SGRSI
 
-Portal estático de consulta para el seguimiento de la segunda entrega del proyecto SGRSI.
+Portal estático de seguimiento del proyecto final 2026.
 
-## Incluye
+## Actualización rápida
 
-- Página principal
-- Cuenta regresiva
-- Calendario semanal
-- Checklist por materia
-- Prioridades
-- Enlaces rápidos
-- Cálculo automático de avance por materia
+Toda la información editable está en `data/proyecto.json`.
 
-## Actualización
+- `proyecto.avanceGeneral`: porcentaje general que puede actualizarse semana a semana.
+- `proyecto.fechaEntrega`: fecha final usada para el contador de días.
+- `jornadas`: fechas seleccionables y sus tarjetas de tareas.
+- `equipo`: integrantes y roles.
+- `enlaces`: accesos rápidos.
 
-Editar:
+Las tarjetas muestran: ID, ticket/tarea, responsable, ayudante, fecha límite y criterio de cierre. No se utiliza prioridad ni checklist.
 
-`data/proyecto.json`
-
-Luego hacer commit y push. GitHub Pages actualizará el sitio automáticamente.
-
-## Publicación en GitHub Pages
-
-1. Settings
-2. Pages
-3. Deploy from a branch
-4. Branch: `main`
-5. Folder: `/ (root)`
+Para probarlo localmente, abrir con Live Server/XAMPP u otro servidor HTTP; `fetch()` no funciona correctamente al abrir `index.html` directamente con `file://`.
