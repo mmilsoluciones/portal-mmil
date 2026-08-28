@@ -1,141 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portal interno de seguimiento del proyecto SGRSI de MMIL Soluciones.">
-    <title>Portal MMIL Soluciones</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="description" content="MMIL Soluciones: proyecto estudiantil de desarrollo de soluciones informáticas orientadas a simplificar y automatizar tareas.">
+  <title>MMIL Soluciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/public.css">
 </head>
 <body>
-    <header class="cabecera">
-        <nav class="container navbar navbar-expand-lg navbar-dark px-0">
-            <a class="navbar-brand marca" href="#inicio">
-                <img src="./img/LogoAPP.webp" alt="Logo MMIL Soluciones" class="logo-mmil">
-                <span><strong>MMIL Soluciones</strong><small>Portal de seguimiento SGRSI</small></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuPrincipal">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#calendario">Calendario</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#recursos">Recursos</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="MMIL Soluciones - Inicio">
+        <img src="./Recursos/logo-mmil.webp" alt="Logo de MMIL Soluciones">
+        <div><strong>MMIL Soluciones</strong><span>Soluciones que simplifican</span></div>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#proyecto">Proyecto</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="btn btn-small btn-outline" href="./login.html">Sector empresa</a>
+    </div>
+  </header>
 
-    <main>
-        <section id="inicio" class="hero">
-            <div class="container py-5">
-                <div class="row align-items-center g-4">
-                    <div class="col-12 col-lg-7">
-                        <span class="etiqueta-superior">ENTREGA FINAL</span>
-                        <h1>Seguimiento general del proyecto</h1>
-                        <p class="hero-texto">Planificación por jornadas, responsables y accesos rápidos de MMIL Soluciones.</p>
-                        <div class="d-flex flex-wrap gap-2 mt-4">
-                            <a href="#calendario" class="btn btn-light btn-lg">Ver calendario</a>
-                            <a id="botonJiraHero" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg">Abrir Jira</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-5">
-                        <article class="cuenta-regresiva">
-                            <span>Faltan</span>
-                            <strong id="diasRestantes">--</strong>
-                            <p>días para la entrega final</p>
-                            <small id="fechaEntrega">Cargando fecha...</small>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <main>
+    <section class="hero">
+      <div class="hero-orb hero-orb-a"></div><div class="hero-orb hero-orb-b"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">PROYECTO ESTUDIANTIL · 2026</span>
+          <h1>Tecnología pensada para <em>hacer más simple</em> el trabajo diario.</h1>
+          <p>En MMIL Soluciones desarrollamos herramientas digitales orientadas a organizar procesos, automatizar tareas repetitivas y convertir necesidades reales en soluciones informáticas claras y utilizables.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyecto">Conocé nuestro proyecto</a>
+            <a class="btn btn-ghost" href="./login.html">Ingresar al sector empresa <span>→</span></a>
+          </div>
+          <div class="hero-points">
+            <span><i></i> Desarrollo</span><span><i></i> Automatización</span><span><i></i> Organización</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-card main-shot">
+            <img src="./Recursos/1.webp" alt="Vista del proyecto MMIL Soluciones" data-fallback-hero="1">
+            <div class="missing-content"><span>01</span><strong>Imagen del proyecto</strong><small>Recursos/1.webp</small></div>
+          </div>
+          <div class="float-card float-a"><span>MMIL</span><strong>Soluciones</strong><small>Proyecto integrado</small></div>
+          <div class="float-card float-b"><strong>2026</strong><small>Desarrollo continuo</small></div>
+        </div>
+      </div>
+    </section>
 
-        <section class="container seccion-resumen">
-            <div class="row g-4">
-                <div class="col-12 col-md-4">
-                    <article class="tarjeta-resumen">
-                        <span>Avance general</span>
-                        <strong id="avanceGeneral">0%</strong>
-                        <div class="progress mt-3" role="progressbar" aria-label="Avance general">
-                            <div id="barraAvanceGeneral" class="progress-bar" style="width: 0%"></div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-12 col-md-4">
-                    <article class="tarjeta-resumen">
-                        <span>Jornada seleccionada</span>
-                        <strong id="jornadaActual">Cargando...</strong>
-                        <small id="cantidadTareas">-- tareas asignadas</small>
-                    </article>
-                </div>
-                <div class="col-12 col-md-4">
-                    <article class="tarjeta-resumen">
-                        <span>Última jornada planificada</span>
-                        <strong>22/10/2026</strong>
-                        <small>Un día antes de la entrega final</small>
-                    </article>
-                </div>
-            </div>
-        </section>
+    <section class="section" id="nosotros">
+      <div class="container intro-grid">
+        <div><span class="eyebrow dark">QUIÉNES SOMOS</span><h2>Aprendemos construyendo soluciones reales.</h2></div>
+        <div class="intro-text"><p>MMIL Soluciones nace como un proyecto estudiantil interdisciplinario. Nuestro objetivo es aplicar conocimientos de desarrollo, diseño, infraestructura, seguridad y gestión para resolver problemas concretos mediante software.</p><p>No buscamos solamente crear una aplicación: trabajamos el ciclo completo, desde el relevamiento de una necesidad hasta su implementación, documentación y mejora continua.</p></div>
+      </div>
+    </section>
 
-        <section id="calendario" class="container seccion">
-            <div class="encabezado-seccion">
-                <div>
-                    <span class="subtitulo">PLANIFICACIÓN</span>
-                    <h2>Calendario de cierre</h2>
-                </div>
-                <p>Seleccioná una fecha para ver las tareas asignadas a esa jornada.</p>
-            </div>
+    <section class="section soft" id="proyecto">
+      <div class="container">
+        <div class="section-heading center"><span class="eyebrow dark">LO QUE HACEMOS</span><h2>De una necesidad a una herramienta útil</h2><p>Combinamos distintas áreas para desarrollar soluciones que reduzcan tareas manuales y mejoren la organización de la información.</p></div>
+        <div class="feature-grid">
+          <article class="feature"><span class="feature-num">01</span><h3>Analizamos</h3><p>Identificamos necesidades, actores y procesos para comprender qué problema necesita una solución.</p></article>
+          <article class="feature featured"><span class="feature-num">02</span><h3>Desarrollamos</h3><p>Diseñamos e implementamos aplicaciones que centralizan información y automatizan operaciones repetitivas.</p></article>
+          <article class="feature"><span class="feature-num">03</span><h3>Mejoramos</h3><p>Probamos, documentamos y revisamos cada solución para aumentar su calidad, seguridad y facilidad de uso.</p></article>
+        </div>
+      </div>
+    </section>
 
-            <div class="calendarios-grid">
-                <article class="mes-panel">
-                    <div class="mes-cabecera"><span>2026</span><h3>Septiembre</h3></div>
-                    <div id="fechasSeptiembre" class="fechas-grid"></div>
-                </article>
-                <article class="mes-panel">
-                    <div class="mes-cabecera"><span>2026</span><h3>Octubre</h3></div>
-                    <div id="fechasOctubre" class="fechas-grid"></div>
-                </article>
-            </div>
+    <section class="section showcase" id="galeria">
+      <div class="container">
+        <div class="section-heading split"><div><span class="eyebrow">NUESTRO TRABAJO</span><h2>El proyecto en imágenes</h2></div><p>Algunas vistas del proceso y de las soluciones desarrolladas por el equipo.</p></div>
+        <div class="carousel" data-carousel>
+          <div class="carousel-track" data-track>
+            <figure class="slide active"><img src="./Recursos/1.webp" alt="Proyecto MMIL - imagen 1" data-fallback-slide="1"><figcaption><span>01</span><strong>Desarrollo del proyecto</strong></figcaption></figure>
+            <figure class="slide"><img src="./Recursos/2.webp" alt="Proyecto MMIL - imagen 2" data-fallback-slide="2"><figcaption><span>02</span><strong>Interfaces y funcionamiento</strong></figcaption></figure>
+            <figure class="slide"><img src="./Recursos/3.webp" alt="Proyecto MMIL - imagen 3" data-fallback-slide="3"><figcaption><span>03</span><strong>Trabajo del equipo</strong></figcaption></figure>
+            <figure class="slide"><img src="./Recursos/4.webp" alt="Proyecto MMIL - imagen 4" data-fallback-slide="4"><figcaption><span>04</span><strong>Infraestructura y pruebas</strong></figcaption></figure>
+            <figure class="slide"><img src="./Recursos/5.webp" alt="Proyecto MMIL - imagen 5" data-fallback-slide="5"><figcaption><span>05</span><strong>Evolución del producto</strong></figcaption></figure>
+          </div>
+          <button class="carousel-btn prev" type="button" data-prev aria-label="Imagen anterior">←</button>
+          <button class="carousel-btn next" type="button" data-next aria-label="Imagen siguiente">→</button>
+          <div class="carousel-dots" data-dots></div>
+        </div>
+      </div>
+    </section>
 
-            <article class="panel-jornada mt-4">
-                <div class="panel-jornada-cabecera">
-                    <div>
-                        <span class="subtitulo">TAREAS DEL DÍA</span>
-                        <h2 id="tituloJornada">Cargando jornada...</h2>
-                    </div>
-                    <div class="contador-tareas"><strong id="contadorTareasPanel">0</strong><span>tareas</span></div>
-                </div>
-                <div id="tareasJornada" class="row g-3"></div>
-            </article>
-        </section>
+    <section class="section cta-section" id="contacto">
+      <div class="container cta-card">
+        <div><span class="eyebrow">MMIL SOLUCIONES</span><h2>Seguinos y conocé cómo avanza el proyecto.</h2><p>Compartimos novedades, desarrollo y avances del trabajo realizado durante el año.</p></div>
+        <div class="cta-actions">
+          <a class="btn btn-white" href="https://www.instagram.com/mmilsoluciones_?igsi=Z3lza213cHBreXhk" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-        <section id="equipo" class="container seccion">
-            <div class="encabezado-seccion">
-                <div><span class="subtitulo">ORGANIZACIÓN</span><h2>Equipo MMIL Soluciones</h2></div>
-                <p>Roles definidos para el proyecto.</p>
-            </div>
-            <div id="equipoGrid" class="row g-4"></div>
-        </section>
-
-        <section id="recursos" class="container seccion pb-5">
-            <div class="encabezado-seccion">
-                <div><span class="subtitulo">ACCESOS</span><h2>Recursos rápidos</h2></div>
-                <p>Herramientas utilizadas por el equipo.</p>
-            </div>
-            <div id="enlacesRapidos" class="row g-3"></div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container"><span>MMIL Soluciones · Proyecto SGRSI · 2026</span><span id="ultimaActualizacion">Última actualización: --</span></div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/app.js"></script>
+  <footer><div class="container footer-inner"><div class="brand footer-brand"><img src="./Recursos/logo-mmil.webp" alt=""><div><strong>MMIL Soluciones</strong><span>Proyecto estudiantil · 2026</span></div></div><span>Desarrollo · Automatización · Tecnología</span></div></footer>
+  <script src="./js/security-public.js"></script>
+  <script src="./js/public.js"></script>
 </body>
 </html>

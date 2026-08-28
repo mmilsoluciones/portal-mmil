@@ -109,3 +109,15 @@ body { margin: 0; background: var(--fondo); color: var(--texto); font-family: Ar
     .cuenta-regresiva strong { font-size: 4rem; }
     .fechas-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
+
+/* Acceso de salida del sector interno */
+.nav-salir {
+    border: 1px solid rgba(255,255,255,.45);
+    border-radius: 10px;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+}
+.nav-salir:hover, .nav-salir:focus {
+    background: rgba(255,255,255,.10);
+    color: #fff !important;
+}
