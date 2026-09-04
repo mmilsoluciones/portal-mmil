@@ -4,7 +4,7 @@
     "entrega": "Entrega final",
     "fechaEntrega": "2026-10-23",
     "avanceGeneral": 70,
-    "ultimaActualizacion": "28/08/2026",
+    "ultimaActualizacion": "04/09/2026",
     "urlJira": "https://mmilsoluciones.atlassian.net/jira/software/projects/SCRUM/boards/1?sprintStarted=true"
   },
   "jornadas": [
@@ -71,8 +71,8 @@
         {
           "id": "PFS-08",
           "ticket": "Elaborar matriz CRUD de las 17 tablas",
-          "responsable": "Iliana Casañol",
-          "ayudante": "Marcos Albarracin",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
           "fecha": "2026-09-05",
           "criterioCierre": "Operaciones existentes, faltantes y excepciones identificadas"
         },
@@ -118,7 +118,7 @@
           "id": "ISW-02",
           "ticket": "Elaborar FODA ponderado del producto SGRSI",
           "responsable": "Emilia Caballero",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Luciano Acosta",
           "fecha": "2026-09-12",
           "criterioCierre": "Analiza el producto, pondera factores y concluye"
         },
@@ -126,14 +126,14 @@
           "id": "ISW-03",
           "ticket": "Elaborar análisis costo-beneficio",
           "responsable": "Emilia Caballero",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
           "fecha": "2026-09-12",
           "criterioCierre": "Costos y beneficios están cuantificados y comparados"
         },
         {
           "id": "ISW-04",
           "ticket": "Calcular métricas de tamaño, función y esfuerzo",
-          "responsable": "Iliana Casañol",
+          "responsable": "Marcos Albarracin",
           "ayudante": "Emilia Caballero",
           "fecha": "2026-09-12",
           "criterioCierre": "Se aplican al menos dos métricas y se estima esfuerzo"
@@ -174,7 +174,7 @@
           "id": "SSO-02",
           "ticket": "Crear módulo de administración de usuarios",
           "responsable": "Marcos Albarracin",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Luciano Acosta",
           "fecha": "2026-09-12",
           "criterioCierre": "Alta, baja segura, bloqueo, listado y validaciones"
         },
@@ -189,7 +189,7 @@
         {
           "id": "CIB-02",
           "ticket": "Implementar cifrado de información sensible",
-          "responsable": "Iliana Casañol",
+          "responsable": "Marcos Albarracin",
           "ayudante": "Macarena Rodriguez",
           "fecha": "2026-09-12",
           "criterioCierre": "Cifrado/descifrado probado y claves fuera del repositorio"
@@ -235,8 +235,8 @@
         {
           "id": "CIB-06",
           "ticket": "Endurecer HTTPS y sesiones",
-          "responsable": "Iliana Casañol",
-          "ayudante": "Marcos Albarracin",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
           "fecha": "2026-09-19",
           "criterioCierre": "Redirección HTTP, cookie Secure y cabeceras apropiadas"
         },
@@ -329,8 +329,8 @@
         {
           "id": "ISW-01",
           "ticket": "Actualizar el diagrama final de clases",
-          "responsable": "Iliana Casañol",
-          "ayudante": "Luciano Acosta",
+          "responsable": "Luciano Acosta",
+          "ayudante": "Emilia Caballero",
           "fecha": "2026-09-26",
           "criterioCierre": "Coincide con el código definitivo y sus relaciones"
         },
@@ -369,7 +369,7 @@
         {
           "id": "UTU-11",
           "ticket": "Consolidar definición e identidad final del producto",
-          "responsable": "Iliana Casañol",
+          "responsable": "Emilia Caballero",
           "ayudante": "Macarena Rodriguez",
           "fecha": "2026-09-26",
           "criterioCierre": "Qué hace, destinatarios, diferenciación, logo y estilo definidos"
@@ -402,7 +402,7 @@
           "id": "SSO-08",
           "ticket": "Integrar los siete módulos en el menú final",
           "responsable": "Marcos Albarracin",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Macarena Rodriguez",
           "fecha": "2026-09-26",
           "criterioCierre": "Menú uniforme, control de errores, ayuda y logs propios"
         },
@@ -463,7 +463,7 @@
         {
           "id": "ISW-07",
           "ticket": "Ejecutar todas las pruebas funcionales aplicables",
-          "responsable": "Iliana Casañol",
+          "responsable": "Macarena Rodriguez",
           "ayudante": "Marcos Albarracin",
           "fecha": "2026-10-03",
           "criterioCierre": "Casos ejecutados con resultado, evidencia e incidencia"
@@ -495,7 +495,7 @@
         {
           "id": "UTU-05",
           "ticket": "Analizar funcionamiento general y experiencia de uso",
-          "responsable": "Iliana Casañol",
+          "responsable": "Luciano Acosta",
           "ayudante": "Macarena Rodriguez",
           "fecha": "2026-10-03",
           "criterioCierre": "Resultados, problemas, métricas y conclusiones documentados"
@@ -528,7 +528,7 @@
           "id": "CIB-09",
           "ticket": "Corregir hallazgos OWASP y repetir pruebas",
           "responsable": "Macarena Rodriguez",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
           "fecha": "2026-10-03",
           "criterioCierre": "RBAC, errores, puertos, sesiones y cabeceras corregidos"
         },
@@ -566,7 +566,7 @@
           "id": "ISW-10",
           "ticket": "Elaborar manual de usuario detallado",
           "responsable": "Luciano Acosta",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
           "fecha": "2026-10-10",
           "criterioCierre": "Incluye procedimientos por rol y capturas actualizadas"
         },
@@ -574,7 +574,7 @@
           "id": "ISW-11",
           "ticket": "Elaborar manual de instalación y mantenimiento",
           "responsable": "Luciano Acosta",
-          "ayudante": "Iliana Casañol",
+          "ayudante": "Marcos Albarracin",
           "fecha": "2026-10-10",
           "criterioCierre": "Cubre Rocky, Docker, despliegue, backup y recuperación"
         },
@@ -589,16 +589,16 @@
         {
           "id": "UTU-06",
           "ticket": "Comparar idea inicial con solución final",
-          "responsable": "Iliana Casañol",
-          "ayudante": "Marcos Albarracin",
+          "responsable": "Marcos Albarracin",
+          "ayudante": "Macarena Rodriguez",
           "fecha": "2026-10-10",
           "criterioCierre": "Tabla comparativa de alcance, diseño y resultado"
         },
         {
           "id": "UTU-07",
           "ticket": "Elaborar historial de cambios y sus motivos",
-          "responsable": "Iliana Casañol",
-          "ayudante": "Macarena Rodriguez",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
           "fecha": "2026-10-10",
           "criterioCierre": "Cada cambio importante posee justificación"
         },
@@ -629,8 +629,8 @@
         {
           "id": "UTU-12",
           "ticket": "Producir mockups y piezas visuales finales",
-          "responsable": "Iliana Casañol",
-          "ayudante": "Macarena Rodriguez",
+          "responsable": "Equipo",
+          "ayudante": "Equipo",
           "fecha": "2026-10-10",
           "criterioCierre": "Recursos finales uniformes y exportados en buena calidad"
         },
@@ -717,20 +717,21 @@
       "area": "Diseño del sistema, modelado y revisión técnica."
     },
     {
-      "nombre": "Iliana Casañol",
-      "rol": "Integrante 1",
-      "area": "Documentación, evidencias y organización de entregables."
-    },
-    {
       "nombre": "Macarena Rodríguez",
-      "rol": "Integrante 2",
+      "rol": "Integrante 1",
       "area": "Programación, backend, base de datos e integración."
     },
     {
       "nombre": "Emilia Caballero",
-      "rol": "Integrante 3",
+      "rol": "Integrante 2",
       "area": "Diseño, diagramas y validación del modelado."
-    }
+    },
+    {
+      "nombre": "Iliana Casañol",
+      "rol": "Integrante hasta el 3 de Septiembre de 2026",
+      "area": "Documentación, evidencias y organización de entregables."
+    },
+    
   ],
   "enlaces": [
     {
